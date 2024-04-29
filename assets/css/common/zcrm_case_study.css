@@ -1,0 +1,2422 @@
+.zct_main {
+    position: relative;
+    margin-top: -78px
+}
+
+.dib {
+    display: inline-block
+}
+
+.zct_main.desk-template {
+    margin-top: -82px
+}
+
+.desk-template .cs_FilterSec {
+    display: none
+}
+
+.cs_banner {
+    position: relative;
+    z-index: 1
+}
+
+.zct_bold {
+    color: #000
+}
+
+.cs_lable.zct_enable {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.cs_lable.zct_disable {
+    pointer-events: none;
+    opacity: .4
+}
+
+.zcs_layer {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45%;
+    z-index: -1;
+    background: #136cfb
+}
+
+.skr_name {
+    font-family: var(--zf-primary-semibold)
+}
+
+.zct_main h1 {
+    color: #000;
+    font: 56px/1.1 var(--zf-primary-extrabold);
+    margin-bottom: 15px
+}
+
+.zct_main h2 {
+    font: 38px/1.2 var(--zf-primary-bold)
+}
+
+.zct_Desc_grp,
+.zct_quoteDesc {
+    font: 20px/1.6 var(--zf-secondary-medium);
+    margin-bottom: 0;
+    color: #000
+}
+
+.zct_Desc_grp p {
+    font-size: 20px
+}
+
+.zct_quoteDesc {
+    margin-bottom: 15px
+}
+
+.zct_quoteDesc:last-child,
+.zct_Desc_grp p:last-child {
+    margin-bottom: 0
+}
+
+.zct_Desc_grp.showmore {
+    max-height: 400px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative
+}
+
+.zct_Desc_grp.showless {
+    max-height: none;
+    overflow: auto
+}
+
+.zct_Desc_grp.showmore:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 80px;
+    background: transparent;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background: -webkit-linear-gradient(top, #fff0, #fff);
+    background: -moz-linear-gradient(top, #fff0, #fff);
+    background: linear-gradient(to bottom, #fff0, #fff)
+}
+
+.zct_showmore {
+    cursor: pointer;
+    color: #555;
+    font: 14px/1.2 var(--zf-primary-bold);
+    display: inline-block;
+    position: relative;
+    padding-top: 5px
+}
+
+.zct_main h4 {
+    font: 18px/1.2 var(--zf-primary-semibold);
+    padding-bottom: 12px
+}
+
+.zct_main a {
+    text-decoration: none
+}
+
+.zcrm_ftr a,
+.zcrm_ftr p {
+    font: 12px/1.4 var(--zf-primary-regular)
+}
+
+.zcrm_ftr a {
+    text-decoration: underline
+}
+
+.cx-banner {
+    background: #0067ff;
+    padding-top: 100px;
+}
+
+.desk-template .cx-banner {
+    background: #0b5b42
+}
+
+.cx-HeaderInner {
+    text-align: left;
+    max-width: 1130px;
+    margin: 0 auto;
+    color: #fff;
+    width: 90%;
+    padding: 170px 0 80px
+}
+
+.cx-HeaderInner h1 {
+    color: #fff;
+    font: 40px/1.2 var(--zf-primary-bold);
+    max-width: 545px;
+    margin: 0
+}
+
+.cx-slideSec {
+    text-align: left;
+    max-width: 1330px;
+    margin: 0 auto;
+    width: 98%;
+    padding: 60px 6% 80px;
+    display: flex;
+    flex-direction: row;
+    background: #dcf0ff;
+    border-radius: 40px;
+    position: relative;
+    z-index: 2;
+    box-sizing: border-box !important
+}
+
+.desk-template .cx-slideSec {
+    background: #dcfff2;
+    padding: 60px 100px
+}
+
+.cx-promoSec,
+.cx-testiSec,
+.desk-template .cx-testiSec {
+    width: 50%;
+    text-align: left
+}
+
+.cx-promoInner {
+    position: relative;
+    transition: all ease-out .6s;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.cx-promoInner li {
+    width: 33.3%;
+    min-height: 100px;
+    position: relative;
+    /* border: solid #b7dcf9; */
+    border-width: 0 1px 1px 0;
+    box-sizing: border-box
+}
+
+.desk-template .cx-promoInner li {
+    border-color: #a8ebcd
+}
+
+.cx-promoInner li:nth-child(7),
+.cx-promoInner li:nth-child(8),
+.cx-promoInner li:nth-child(9) {
+    border-bottom: 0
+}
+
+.cx-promoInner li:nth-child(3),
+.cx-promoInner li:nth-child(6),
+.cx-promoInner li:nth-child(9) {
+    border-right: 0
+}
+
+.promo_logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: 876px auto;
+    opacity: .9
+}
+
+.bg_lazy_loaded .promo_logo {
+    background-image: url(//www.zohowebstatic.com/sites/zweb/images/crm/casestudy/cx-loyal-customer-logos.png)
+}
+
+.cx-bluestar {
+    background-position: -328px -114px;
+    width: 162px;
+    height: 34px
+}
+
+.cx-starhealth {
+    background-position: -16px -224px;
+    width: 119px;
+    height: 52px
+}
+
+.cx-tasselTop {
+    background-position: -221px -106px;
+    width: 99px;
+    height: 49px
+}
+
+.cx-puro {
+    background-position: -95px -112px;
+    width: 117px;
+    height: 37px
+}
+
+.cx-abuDhabi {
+    background-position: -485px -10px;
+    width: 125px;
+    height: 46px
+}
+
+.cx-rainRent {
+    background-position: -10px -63px;
+    width: 77px;
+    height: 78px
+}
+
+.cx-hotstar {
+    background-position: -96px -63px;
+    width: 121px;
+    height: 29px
+}
+
+.cx-netflix {
+    background-position: -620px -7px;
+    width: 99px;
+    height: 39px
+}
+
+.cx-bose {
+    background-position: -728px -21px;
+    width: 124px;
+    height: 16px
+}
+
+.desk-template .bg_lazy_loaded .promo_logo {
+    background-image: url(//www.zohowebstatic.com/sites/zweb/images/desk/casestudy/zd-cs-logo-sprite.png)
+}
+
+.desk-template .promo_logo {
+    background-size: 597px auto
+}
+
+.cx-lycamble {
+    background-position: -428px -20px;
+    width: 112px;
+    height: 28px
+}
+
+.cx-mcafee {
+    background-position: -184px -27px;
+    width: 121px;
+    height: 25px
+}
+
+.cx-nhs {
+    background-position: -23px -104px;
+    width: 76px;
+    height: 35px
+}
+
+.cx-daimler {
+    background-position: -23px -30px;
+    width: 129px;
+    height: 18px
+}
+
+.cx-cummins {
+    background-position: -23px -180px;
+    width: 39px;
+    height: 36px
+}
+
+.cx-goorej {
+    background-position: -322px -24px;
+    width: 74px;
+    height: 36px
+}
+
+.cx-riotinto {
+    background-position: -285px -111px;
+    width: 105px;
+    height: 23px
+}
+
+.cx-essilor {
+    background-position: -140px -110px;
+    width: 104px;
+    height: 26px
+}
+
+.cx-orogers {
+    background-position: -421px -112px;
+    width: 116px;
+    height: 22px
+}
+
+.cx-testiSec {
+    margin-top: -280px
+}
+
+.cx-testiInner {
+    padding: 0 0 0 45px
+}
+
+.cx-testiGrp {
+    position: relative;
+    height: 500px
+}
+
+.cx-testiLst {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: ease-out .8s;
+    color: #000;
+    box-shadow: 0 0 12px 1px rgb(0 0 0 / 22%);
+    -moz-box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow: 0 0 12px 1px rgb(0 0 0 / 22%);
+    -o-box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.22);
+    border-radius: 30px;
+    background: #fff
+}
+
+.cx-newSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: #fff
+}
+
+.cx-testiLst.active {
+    opacity: 1;
+    z-index: 3
+}
+
+.cx-LstInner {
+    padding: 40px;
+    text-align: center
+}
+
+.cx-loyal-logo {
+    margin-bottom: 15px
+}
+
+.cx-testiLst h3 {
+    font: 26px/1.4 var(--zf-primary-semibold);
+    margin-bottom: 20px;
+    text-transform: capitalize
+}
+
+.cx-skrGrp {
+    padding: 0 0 20px;
+    color: #111
+}
+
+.cx-storyLink {
+    font: 16px/1.4 var(--zf-primary-semibold);
+    text-decoration: none;
+    color: #0067ff
+}
+
+.spkrName {
+    font-family: var(--zf-primary-semibold);
+    display: block
+}
+
+.cx-carousalNav {
+    padding: 30px 0 0;
+    text-align: center
+}
+
+.cx-PrvSld,
+.cx-NxtSld {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 38px;
+    height: 38px;
+    /* border-radius: 50%; */
+    background: #fff;
+    color:#000;
+    /* border: 1px solid #727272; */
+    margin: 0;
+    cursor: pointer;
+    pointer-events: none;
+    transition: ease .4s;
+    opacity: .3
+}
+
+.cx-PrvSld:after,
+.cx-NxtSld:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border: solid #727272;
+    border-width: 2px 2px 0 0;
+    padding: 5px
+}
+
+.cx-PrvSld:after {
+    left: 55%;
+    transform: translate(-50%, -50%) rotate(-135deg)
+}
+
+.cx-PrvSld.active,
+.cx-NxtSld.active {
+    opacity: 1;
+    pointer-events: inherit
+}
+
+.cx-ValGrp {
+    font: 18px/1.6 var(--zf-primary-regular);
+    display: inline-block;
+    vertical-align: middle;
+    color: #727272;
+    padding: 0 20px;
+    transition: all ease .4s;
+    width: 50px
+}
+
+.cx-nxtVal {
+    opacity: .6
+}
+
+.cx-srtVal {
+    opacity: 1;
+    font-family: var(--zf-primary-semibold)
+}
+
+.cx-stryLst {
+    padding: 50px 40px 40px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 3px
+}
+
+.cx-stryInner {
+    width: 90%;
+    margin: 0 auto
+}
+
+.cx-stryInner h3 {
+    font: 28px/1.2 var(--zf-primary-bold)
+}
+
+.cx-storyInfo {
+    font: 18px/1.5 var(--zf-primary-regular);
+    margin: 0 0 15px
+}
+
+.cx-story-cta {
+    padding: 8px 20px;
+    color: #fff !important;
+    background: #ee4944;
+    border: 1px solid #ee4944;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font: 18px/1.2 var(--zf-primary-semibold);
+    text-transform: uppercase;
+    margin-top: 15px;
+    cursor: pointer
+}
+
+.cx-stryImg {
+    padding-top: 40px
+}
+
+.mid-section {
+    position: relative;
+    margin-top: -100px;
+    padding-top: 100px;
+    background: #031b4e
+}
+
+.desk-template .mid-section {
+    background: #073c2c
+}
+
+.cs_lstSec:after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.cs_detailSec {
+    width: 100%;
+    background: #031b4e
+}
+
+.bigin-template .cs_detailSec {
+    background: #083349
+}
+
+.cs_detailInner {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 80px 0
+}
+
+.bigin-template .cs_detailInner {
+    padding: 0 0 60px
+}
+
+.cs_flrCont {
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 90%;
+    background: #fff;
+    border-radius: 5px;
+    transition: all ease .4s;
+    border: 1px solid #efefef;
+    box-sizing: border-box !important
+}
+
+.zcs_Filter {
+    width: 100%;
+    background: transparent;
+    transition: all ease .5s
+}
+
+.cs_FilterSec {
+    width: 100%;
+    display: block;
+    background: transparent
+}
+
+.cs_FilterSec.fixed_nav {
+    position: sticky;
+    position: -webkit-sticky;
+    box-sizing: border-box;
+    top: 51px;
+    left: 0;
+    z-index: 6
+}
+
+.fixed_nav .cs_FilterInner {
+    width: 100%;
+    background: #fff;
+    transition: all ease .4s;
+    -webkit-box-shadow: 0 8px 10px -6px rgb(0 0 0 / 14%);
+    -moz-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 8px 10px -6px rgb(0 0 0 / 14%)
+}
+
+.bigin-template .fixed_nav .cs_FilterInner {
+    background: #083349
+}
+
+.cs_FilterSec.fixed_nav.active {
+    z-index: 1001
+}
+
+.fixed_nav .cs_flrCont {
+    width: 100%;
+    border-radius: 0;
+    max-width: 100%
+}
+
+.cs_FilterInner {
+    text-align: center;
+    position: relative;
+    margin: -29px auto;
+    z-index: 2
+}
+
+.cs_Filter {
+    padding: 10px 35px;
+    transition: all ease .5s;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 1170px;
+    margin: 0 auto
+}
+
+.bigin-template .cs_Filter {
+    padding: 20px 35px
+}
+
+.zcs_ErMsg {
+    position: relative;
+    display: none;
+    margin: 0 auto;
+    padding: 0 0 20px;
+    z-index: 7;
+    text-align: center
+}
+
+.zcs_ErMsg span {
+    color: #9c4500;
+    background: #f6ecbe;
+    padding: 3px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    font: 14px/1.2 var(--zf-primary-regular)
+}
+
+.smart_filterSec {
+    font: 14px/1.2 var(--zf-secondary-light);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap
+}
+
+.smart_filterSec .active {
+    color: #0067ff;
+    font-family: var(--zf-primary-semibold);
+    border-bottom: 2px solid #0067ff
+}
+
+.smart_filter {
+    font: 14px/1.2 var(--zf-secondary-light);
+    padding: 4px 15px;
+    cursor: pointer
+}
+
+.cs_FlrElement {
+    font: 14px/1.2 var(--zf-primary-semibold);
+    display: flex;
+    color: #000;
+    align-items: center
+}
+
+.cs_FilterSec.zcs_sticky .cs_FlrElement,
+.cs_FilterSec.active .cs_FlrElement {
+    color: #000
+}
+
+.fltr_resultSec {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e3e4e4;
+    justify-content: space-between
+}
+
+.fltr_lftSec {
+    font: 18px/1.2 var(--primaryfont-bold);
+    padding: 5px 0
+}
+
+.fltr_lftInner {
+    font: 18px/1.2 var(--zf-primary-regular);
+    color: #222
+}
+
+.zcs_flrReset {
+    color: #000;
+    font: 16px/1.2 var(--zf-primary-semibold);
+    cursor: pointer;
+    visibility: hidden
+}
+
+.zcs_flrReset.active {
+    visibility: visible
+}
+
+.flr_icon_close {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 21px;
+    height: 20px;
+    cursor: pointer;
+    background: url(//www.zohowebstatic.com/sites/zweb/images/crm/testimonials/testimonial-icon-sprite.svg) no-repeat -47px -21px;
+    display: none
+}
+
+.flr_icon_close.active {
+    display: inline-block
+}
+
+.zcs_flrclose {
+    font: 16px/1.2 var(--zf-primary-semibold);
+    cursor: pointer;
+    display: none;
+    margin-right: 20px;
+    color: #fff;
+    background: #0266ff;
+    padding: 6px 20px;
+    border-radius: 25px
+}
+
+.zcs_flrclose.active {
+    display: inline-block
+}
+
+.cs_FilterBox {
+    position: relative;
+    font: 14px/1.5 var(--zf-secondary-light);
+    padding: 7px 50px 7px 7px;
+    color: #333;
+    background: #fff;
+    cursor: pointer;
+    display: none
+}
+
+.cs_FilterBox:after {
+    position: absolute;
+    top: 7px;
+    right: 20px;
+    content: "";
+    display: inline-block;
+    /* background: url(//www.zohowebstatic.com/sites/zweb/images/crm/testimonials/testimonial-icon-sprite.svg) no-repeat -17px -21px; */
+    width: 21px;
+    height: 20px
+}
+
+.cs_FilterBox.Flr_active,
+.Tags_filter.Flr_active {
+    display: block
+}
+
+.Tags_filter {
+    max-width: 330px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    font: 14px/1.2 var(--zf-secondary-light);
+    padding: 6px 80px 6px 8px;
+    color: #333;
+    background: #fff;
+    position: relative;
+    display: none;
+    text-align: left
+}
+
+.flr_tagtxt {
+    min-width: 240px;
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative
+}
+
+.flr_tagtxt:after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 100%;
+    background: transparent;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    background: -webkit-linear-gradient(right, #fff0, #fff);
+    background: -moz-linear-gradient(right, #fff0, #fff);
+    background: linear-gradient(to right, #fff0, #fff)
+}
+
+.flr_tags {
+    position: relative;
+    border: 1px solid #c4c5c6;
+    border-radius: 10px;
+    padding: 3px 25px 3px 8px;
+    margin-right: 5px;
+    font: 12px/1.2 var(--primaryfont-regular)
+}
+
+.flr_tagclose {
+    background: url(//www.zohowebstatic.com/sites/zweb/images/crm/testimonials/testimonial-icon-sprite.svg) no-repeat -59px -92px;
+    width: 11px;
+    height: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    cursor: pointer
+}
+
+.flr_Edit {
+    font: 12px/1.2 var(--zf-secondary-light);
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: 30px;
+    padding: 2px 10px;
+    background: #fbf2b2;
+    border-radius: 10px;
+    cursor: pointer
+}
+
+.flr_EditClose {
+    position: absolute;
+    content: "";
+    top: 7px;
+    right: 0;
+    background: url(//www.zohowebstatic.com/sites/zweb/images/crm/testimonials/testimonial-icon-sprite.svg) no-repeat -47px -21px;
+    width: 21px;
+    height: 20px;
+    cursor: pointer
+}
+
+.cs_ViewInner {
+    padding: 40px 0;
+    width: 98%;
+    max-width: 1180px;
+    margin: 0 auto
+}
+
+.cs_FlrViewer {
+    display: table;
+    text-align: left;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 30px
+}
+
+.cs_ViewSec {
+    display: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    content: "";
+    background: #fff;
+    z-index: 999;
+    transition: all ease .6s;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .2)
+}
+
+.cs_FilterLst {
+    width: 18%;
+    display: table-cell;
+    padding: 0 15px 0;
+    vertical-align: top
+}
+
+.cs_FilterLst:nth-child(2) {
+    width: 15%
+}
+
+.cs_FilterLst.zcs_interSec {
+    width: 49%
+}
+
+.cs_FlrFrame {
+    text-align: left
+}
+
+.cs_FlrFrame.zcs_clmnSec {
+    width: 49.5%;
+    display: inline-block;
+    vertical-align: top
+}
+
+.cs_industry,
+.cs_assets,
+.cs_country,
+.cs_users,
+.cs_business,
+.cs_FlrH {
+    position: relative;
+    display: block
+}
+
+.cs_FlrH,
+.mbl_Industry {
+    font: 18px/1.2 var(--zf-primary-semibold);
+    color: #111;
+    margin-bottom: 20px
+}
+
+.cs_industry label,
+.cs_assets label,
+.cs_users label,
+.cs_country label,
+.cs_business label {
+    font: 14px/1.2 var(--zf-primary-regular);
+    padding: 9px 15px 9px 30px;
+    cursor: pointer;
+    display: inline-block;
+    color: #000
+}
+
+.cs_sprt {
+    display: inline-block;
+    background: url('//www.zohowebstatic.com/sites/zweb/images/crm/testimonials/testimonial-icon-sprite.svg') no-repeat -19px -54px;
+    width: 18px;
+    height: 19px
+}
+
+.cs_check {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px
+}
+
+.cs_lable input:checked+.cs_check {
+    background-position: -48px -54px;
+    width: 18px;
+    height: 19px
+}
+
+.cs_industry .cs_lable input,
+.cs_country .cs_lable input,
+.cs_users .cs_lable input,
+.cs_business input {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    top: 0;
+    left: 0
+}
+
+.cs_lstSec {
+    padding: 0
+}
+
+.cs_detailLst {
+    position: relative;
+    list-style-type: none;
+    width: 33.3%;
+    float: left
+}
+
+.cs_lstBx {
+    padding: 15px 0
+}
+
+.cs_lstBx.flr_show {
+    display: block
+}
+
+.cs_lstInner {
+    position: relative;
+    margin: 0 15px;
+    background: #fff;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    transition: all ease .3s;
+    box-sizing: border-box
+}
+
+.cs_lstInner:hover {
+    -webkit-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.15)
+}
+
+.cs_testiSec {
+    padding: 50px 40px
+}
+
+.bigin-template .cs_testiSec {
+    padding: 30px 40px
+}
+
+.video .cs_testiSec {
+    padding: 50px 40px 35px
+}
+
+.cs_label {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 3px 10px;
+    font: 12px/1 var(--zf-primary-semibold);
+    border: solid #dd8743;
+    border-width: 1px 0 1px 1px;
+    color: #dd8743;
+    border-radius: 25px 0 0 25px;
+    text-transform: uppercase;
+    display: none
+}
+
+.cs_label.videos {
+    color: #009b3d;
+    border: solid #009b3d;
+    border-width: 1px 0 1px 1px
+}
+
+.zct_logo {
+    display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 10px
+}
+
+.cs_skrGrp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 25px 0 5px
+}
+
+.cs_skrGrp.review_spkr {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between
+}
+
+.zcs-video-container {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.skrGrp_lft {
+    padding-right: 15px;
+    display: flex
+}
+
+.review_spkr .skrGrp_lft {
+    padding: 0 0 0 15px
+}
+
+.skrGrp_img {
+    display: inline-block;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-size: 100%;
+    background-color: #f7f7f7
+}
+
+.vid_spkrGrp {
+    padding: 20px 20px 20px 35px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    color: #fff
+}
+
+.cs_twitter {
+    background: url('//www.zohowebstatic.com/sites/zweb/images/crm/testimonials/testimonial-icon-sprite.svg') no-repeat -148px -24px;
+    width: 51px;
+    height: 50px
+}
+
+.cs_trlogo {
+    background: url('//www.zohowebstatic.com/sites/zweb/images/crm/testimonials/testimonial-icon-sprite.svg') no-repeat -205px -26px;
+    width: 51px;
+    height: 50px
+}
+
+.skrGrp_name,
+.vid_spkrname {
+    display: block;
+    font: 16px/1.4 var(--zf-primary-semibold)
+}
+
+.skrGrp_desig,
+.vid_spkrdesig {
+    display: block;
+    font: 14px/1.6 var(--zf-primary-regular);
+    color: #222
+}
+
+.vid_spkrdesig {
+    color: #fff
+}
+
+.cs_videoSec {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 0 0 11px 11px;
+    cursor: pointer
+}
+
+.cs_videoSec:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8))
+}
+
+.vid_thumb {
+    width: 100%;
+    display: block
+}
+
+.zcs_lnk,
+.zcs_vid,
+.zcs_sites {
+    display: inline-block;
+    position: relative;
+    font: 16px/1.4 var(--zf-secondary-medium);
+    cursor: pointer;
+    color: #0067ff;
+    padding-right: 20px;
+    transition: all ease .3s;
+    margin-top: 20px
+}
+
+.desk-template .zcs_lnk,
+.desk-template .zcs_vid,
+.desk-template .zcs_sites {
+    color: #089949
+}
+
+.zcs_sites {
+    margin-top: 10px;
+    padding-right: 0
+}
+
+.zcs_vid:after {
+    content: '';
+    position: absolute;
+    top: 7px;
+    right: 0;
+    display: block;
+    background: url('//www.zohowebstatic.com/sites/zweb/images/crm/testimonials/testimonial-icon-sprite.svg') no-repeat -79px -26px;
+    width: 15px;
+    height: 11px;
+    transition: all ease .3s
+}
+
+.arrow {
+    position: relative;
+    width: 15px;
+    height: 2px;
+    background: #0067ff;
+    display: inline-block;
+    top: -4px;
+    right: -12px
+}
+
+.arrow:after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border: 2px solid #0067ff;
+    transform: rotate(-45deg);
+    border-left: 0;
+    border-top: 0;
+    top: -3px;
+    right: 0
+}
+
+.zcs_lnk:hover .arrow {
+    transform: translateX(3px);
+    transition: all ease .3s
+}
+
+.bigin-template .arrow {
+    background: #23ae73
+}
+
+.bigin-template .arrow:after {
+    border-color: #23ae73
+}
+
+.desk-template .arrow {
+    background: #089949
+}
+
+.desk-template .arrow:after {
+    border-color: #089949
+}
+
+.cs_lstInner:hover .zcs_vid:after {
+    right: -5px
+}
+
+.zcs_spkrNo,
+.zcs_cmpyNo,
+.cs_lstBx,
+.zcs_vidNo {
+    display: none
+}
+
+.cs_videoSec:before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: url(//www.zohowebstatic.com/sites/zweb/images/crm/testimonials/testimonial-icon-sprite.svg) no-repeat -18px -83px;
+    width: 29px;
+    height: 28px;
+    z-index: 1
+}
+
+.zcs_Freeze {
+    overflow: hidden
+}
+
+.zcs-video-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    overflow: auto;
+    z-index: 9999;
+    display: none
+}
+
+.zcs-video-close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url(/creator/images/e-p-sprite.png) no-repeat 5px -10px;
+    top: 15px;
+    right: 20px
+}
+
+.zcs-video-modal * {
+    box-sizing: border-box
+}
+
+.zcs-video-modalInner {
+    max-width: 70%;
+    width: 90%;
+    height: 100%;
+    display: table;
+    table-layout: fixed;
+    margin: 20px auto
+}
+
+.zcs-video-box {
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%
+}
+
+.zcs-video-iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: 0
+}
+
+.cs_pagination_Sec {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0 60px;
+    color: #fff;
+    display: none
+}
+
+.cs_pagination {
+    padding-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.pgi_numberSec {
+    padding: 0 20px;
+    list-style-type: none;
+    display: none;
+    align-items: center
+}
+
+.pgi_numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px
+}
+
+.pgi_numbers.mid_dots {
+    pointer-events: none
+}
+
+.pgi_numbers.active {
+    background: #fff;
+    color: #053270
+}
+
+.bigin-template .pgi_numbers.active {
+    background: #23ae73;
+    color: #fff;
+    height: 28px;
+    border-radius: 20px;
+    font-family: var(--zf-primary-bold)
+}
+
+.pgi_prev,
+.pgi_nxt {
+    position: relative;
+    font: 18px/1.2 var(--zf-primary-regular);
+    color: #638fcb;
+    padding: 0 20px;
+    cursor: pointer;
+    pointer-events: none;
+    margin: 0 20px
+}
+
+.desk-template .pgi_prev,
+.desk-template .pgi_nxt {
+    color: #4fa687
+}
+
+.bigin-template .pgi_prev,
+.bigin-template .pgi_nxt {
+    color: #1f516b
+}
+
+.bigin-template .pgi_numbers {
+    color: #cef
+}
+
+.pgi_nxt.active,
+.pgi_prev.active,
+.bigin-template .pgi_prev.active,
+.bigin-template .pgi_nxt.active {
+    color: #fff;
+    pointer-events: auto
+}
+
+.pgi_prev:after,
+.pgi_nxt:after {
+    position: absolute;
+    content: "";
+    top: 3px;
+    width: 8px;
+    height: 16px
+}
+
+.pgi_prev:after {
+    background: url('//www.zohowebstatic.com/sites/zweb/images/crm/testimonials/testimonial-icon-sprite.svg') no-repeat -106px -23px;
+    left: 0
+}
+
+.desk-template .pgi_prev:after {
+    background: url('//www.zohowebstatic.com/sites/zweb/images/desk/testimonials/testimonial-icon-sprite.svg') no-repeat -106px -23px;
+    left: 0
+}
+
+.bigin-template .pgi_prev:after {
+    background-position: -83px -89px
+}
+
+.pgi_nxt.active:after {
+    background-position: -128px -23px;
+    transform: rotate(0)
+}
+
+.desk-template .pgi_nxt.active:after {
+    background-position: -128px -23px;
+    transform: rotate(0)
+}
+
+.pgi_prev.active:after {
+    background-position: -128px -23px;
+    transform: rotate(180deg)
+}
+
+.pgi_nxt:after {
+    background: url('//www.zohowebstatic.com/sites/zweb/images/crm/testimonials/testimonial-icon-sprite.svg') no-repeat -106px -23px;
+    right: 0;
+    transform: rotate(180deg)
+}
+
+.desk-template .pgi_nxt:after {
+    background: url('//www.zohowebstatic.com/sites/zweb/images/desk/testimonials/testimonial-icon-sprite.svg') no-repeat -106px -23px;
+    right: 0;
+    transform: rotate(180deg)
+}
+
+.cs_viewall,
+.cs_viewless {
+    display: none;
+    border: 2px solid #727272;
+    font: 18px/1.2 var(--zf-primary-semibold);
+    cursor: pointer;
+    background: #727272;
+    padding: 5px 15px;
+    border-radius: 22px;
+    margin: 0 25px
+}
+
+.cs_viewall.active,
+.cs_viewless.active {
+    display: inline-block
+}
+
+.cs_storySec {
+    z-index: 2;
+    position: relative
+}
+
+.cs_storyInner {
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0 100px;
+    color: #fff;
+    z-index: 2;
+    position: relative
+}
+
+.bigin-template .cs_storySec:after {
+    display: none
+}
+
+.cs_storySec h4 {
+    font: 42px/1 var(--zf-primary-bold);
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.cs_storySec p {
+    font: 18px/1.5 var(--zf-primary-regular);
+    margin-bottom: 15px;
+    padding: 0;
+    color: #fff;
+}
+
+.cs_story_cta {
+    padding: 12px 20px;
+    color: #000;
+    background: #ffc500;
+    border: 1px solid #ffc500;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font: 15px/1.2 var(--zf-primary-semibold);
+    text-transform: uppercase;
+    margin-top: 15px;
+    cursor: pointer
+}
+
+.flr_freezLayer {
+    opacity: .2;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background: #000;
+    content: "";
+    display: none;
+    z-index: 99
+}
+
+.flr_freezLayer.active {
+    display: block
+}
+
+.page_freez {
+    overflow: hidden !important
+}
+
+.mbl_tabnavSec {
+    display: none;
+    flex-direction: row;
+    padding: 15px 0 10px;
+    width: 80%;
+    margin: 0 auto
+}
+
+.mbl_tabnavSec .mbl_Industry {
+    padding: 0 5px;
+    margin: 0 5px;
+    color: #c3c4c5;
+    cursor: pointer
+}
+
+.mbl_Industry.active {
+    color: #111
+}
+
+.mbl_tabnavSec .mbl_Industry:first-child {
+    padding: 0 5px 0 0;
+    margin: 0 5px 0 0
+}
+
+.cs_storyNav {
+    position: fixed;
+    top: 50%;
+    right: -77px;
+    content: "";
+    transform: translateY(-50%) rotate(-90deg);
+    display: none
+}
+
+.cs_storyNav.active {
+    display: inline-block
+}
+
+.storyNav {
+    padding: 10px 20px;
+    font: 15px/1 var(--primaryfont-semibold);
+    background: #ffc500;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    transition: all linear .4s;
+    color: #000;
+    text-transform: uppercase
+}
+
+.bigin-template .cs_flrCont {
+    background: #083349
+}
+
+.bigin-template .cs_FilterInner {
+    margin: 0 auto
+}
+
+.bigin-template .smart_filterSec .active {
+    border: 0
+}
+
+.bigin-template .cs_FlrElement {
+    display: none !important
+}
+
+.bigin-template .cs_Filter {
+    justify-content: center
+}
+
+.bigin-template .testi-cont h2 {
+    font: 50px/1 var(--zf-primary-extrabold);
+    margin: 0
+}
+
+.cust_logo_txt {
+    display: block;
+    font: 18px/1.4 var(--zf-primary-bold);
+    padding: 15px 0
+}
+
+.desk-template .cx-storyLink {
+    color: #089949
+}
+
+.desk-template .cs_detailSec {
+    background: #073c2c
+}
+
+.desk-template .cx-HeaderInner p {
+    max-width: 500px;
+    margin: 20px 0 0;
+    font-size: 18px
+}
+
+.desk-template .cx-testiSec {
+    margin-top: -300px
+}
+
+.desk-template .cs_story_cta {
+    border-radius: 16px;
+    background: #d8ae52;
+    border: 1px solid #d8ae52
+}
+
+.desk-template .cx-story-cta {
+    border-radius: 16px
+}
+
+.blck-arw,
+.whte-arw {
+    right: -4px
+}
+
+.desk-template .blck-arw {
+    background: #000
+}
+
+.desk-template .blck-arw:after {
+    border-color: #000
+}
+
+.desk-template .whte-arw {
+    background: #fff;
+    top: -5px
+}
+
+.desk-template .whte-arw:after {
+    border-color: #fff
+}
+
+@media only screen and (max-width:1180px) {
+    .cs_testiSec {
+        padding: 35px 25px
+    }
+
+    .video .cs_testiSec {
+        padding: 35px 20px 25px
+    }
+
+    .cs_Filter {
+        padding: 10px 25px
+    }
+
+    .cs_ViewInner,
+    .cs_detailInner {
+        width: 96%
+    }
+
+    .cs_flrCont {
+        width: 94%
+    }
+
+    .cs_promoSec,
+    .cs_testi {
+        width: 100%;
+        float: none;
+        text-align: left
+    }
+
+    .cs_testiInner {
+        padding: 0;
+        max-width: 520px;
+        margin: 0 auto;
+        width: 90%
+    }
+
+    .cs_promo {
+        margin: 70px auto
+    }
+
+    .tesmo_carousal {
+        text-align: center
+    }
+
+    .cx-slideSec,
+    .desk-template .cx-slideSec {
+        padding: 60px 4% 80px
+    }
+
+    .cx-testiSec,
+    .desk-template .cx-testiSec {
+        width: 48%
+    }
+
+    .cx-promoSec {
+        width: 52%
+    }
+
+    .zcs_indusGrp,
+    #zcs_users,
+    #zcs_country {
+        overflow-y: auto;
+        height: 380px
+    }
+
+    .cs_FilterLst.zcs_interSec {
+        width: 43%
+    }
+
+    .cs_FilterLst:nth-child(2) {
+        width: 17%
+    }
+
+    .cs_FilterLst {
+        width: 20%
+    }
+}
+
+@media only screen and (max-width:1140px) {
+    .cs_FilterSec.fixed_nav {
+        top: 0
+    }
+
+    .zcs_indusGrp,
+    #zcs_users,
+    #zcs_country {
+        height: 300px
+    }
+
+    .cx-testiSec,
+    .desk-template .cx-testiSec {
+        width: 46%
+    }
+
+    .cx-promoSec {
+        width: 54%
+    }
+
+    .cx-slideSec,
+    .desk-template .cx-slideSec {
+        padding: 60px 3% 80px
+    }
+
+    .cx-HeaderInner h1 {
+        max-width: 500px
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .zct_bannerInner {
+        padding: 100px 0 120px
+    }
+
+    .cs_detailInner {
+        padding: 70px 0 80px
+    }
+
+    .smart_filter {
+        padding: 4px 12px
+    }
+
+    .cs_FilterBox {
+        padding: 6px 50px 6px 8px;
+        margin-left: 6px
+    }
+
+    .cs_FilterBox:after {
+        top: 6px;
+        right: 10px
+    }
+
+    .cs_detailLst {
+        width: 50%
+    }
+
+    .cx-HeaderInner {
+        text-align: center;
+        padding: 140px 0 70px
+    }
+
+    .cx-HeaderInner h1 {
+        margin: 0 auto;
+        max-width: 100%
+    }
+
+    .cx-slideSec,
+    .desk-template .cx-slideSec {
+        padding: 70px 3%;
+        flex-direction: column;
+        border-radius: 0;
+        align-items: center;
+        width: 100%
+    }
+
+    .cx-promoSec {
+        display: none
+    }
+
+    .cx-testiSec,
+    .desk-template .cx-testiSec {
+        width: 60%;
+        margin-top: 0
+    }
+
+    .cx-testiInner {
+        padding: 0
+    }
+
+    .cs_FilterLst.zcs_interSec {
+        width: 31%
+    }
+
+    .cs_FilterLst:nth-child(2) {
+        width: 19%
+    }
+
+    .cs_FilterLst {
+        width: 25%
+    }
+
+    .cs_FlrFrame.zcs_clmnSec {
+        width: 100%
+    }
+
+    .cs_FlrFrame:first-child {
+        padding-bottom: 0
+    }
+
+    .desk-template .cx-HeaderInner p {
+        margin: 20px auto 0
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .zct_banner h2 {
+        line-height: 1.4;
+        margin-bottom: 10px
+    }
+
+    .zct_main h3 {
+        font-size: 18px
+    }
+
+    .zcs_tesmo_info h3 {
+        font-size: 26px
+    }
+
+    .zcs_stryLst h3 {
+        font-size: 28px
+    }
+
+    .cs_label {
+        font-size: 10px
+    }
+
+    .zct_main h1 {
+        font: 48px/1.2 var(--zf-primary-bold)
+    }
+
+    .cs_promo {
+        margin: 90px auto 70px
+    }
+
+    .cs_storySec h4 {
+        font-size: 32px
+    }
+
+    .cx-testiLst h3 {
+        font-size: 22px
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .zct_main h3 {
+        font-size: 16px
+    }
+
+    .zcs_tesmo_info h3 {
+        font-size: 26px
+    }
+
+    .zcs_stryLst h3 {
+        font-size: 28px
+    }
+
+    .cx-testiLst h3 {
+        font-size: 22px
+    }
+
+    .cs_Filter {
+        width: 100%;
+        text-align: left
+    }
+
+    .cs_flrCont {
+        width: 100%;
+        border-radius: 0
+    }
+
+    .cs_FilterInner {
+        margin: 0
+    }
+
+    .cs_Filter {
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+
+    .smart_filterSec {
+        width: 100%;
+        justify-content: center;
+        box-shadow: 0 2px 8px rgba(2, 73, 169, 0.1);
+        position: relative;
+        z-index: 1
+    }
+
+    .smart_filter {
+        padding: 15px 20px
+    }
+
+    .cs_FlrElement {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: #f2f7fe;
+        padding: 10px 20px;
+        box-sizing: border-box !important
+    }
+
+    .cs_FilterBox {
+        background: #f2f7fe
+    }
+
+    fltr_resultSec {
+        padding-bottom: 10px;
+        border-bottom: 0
+    }
+
+    .cs_FlrViewer {
+        padding-top: 20px
+    }
+
+    .Tags_filter {
+        background: transparent;
+        padding: 6px 80px 6px 6px
+    }
+
+    .flr_tagtxt:after {
+        background: -webkit-linear-gradient(right, #fff0, #f2f7fe);
+        background: -moz-linear-gradient(right, #fff0, #f2f7fe);
+        background: linear-gradient(to right, #fff0, #f2f7fe)
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .cs_FilterSec.fixed_nav {
+        top: 0
+    }
+
+    .zct_bannerInner {
+        padding: 90px 0 120px
+    }
+
+    .zct_main,
+    .zct_main.desk-template {
+        margin-top: -60px
+    }
+
+    .cs_ban_inner {
+        padding: 90px 0 50px
+    }
+
+    .zct_main p {
+        margin-bottom: 10px
+    }
+
+    .cs_detailLst {
+        width: 400px;
+        float: none;
+        margin: 0 auto
+    }
+
+    .zct_main h1 {
+        font-size: 38px
+    }
+
+    .zcs_tesmo_info h3 {
+        font-size: 22px
+    }
+
+    .zcs_stryLst h3 {
+        font-size: 26px
+    }
+
+    .cs_promo {
+        margin: 50px auto;
+        display: none
+    }
+
+    .cs_promoSec,
+    .cs_testi {
+        text-align: center
+    }
+
+    .cs_detailInner {
+        padding: 60px 0 50px;
+        width: 94%
+    }
+
+    .cs_FlrH {
+        display: none
+    }
+
+    .mbl_Industry {
+        font-size: 16px
+    }
+
+    .cs_FilterBox.active:after {
+        top: 12px
+    }
+
+    .cs_industry label,
+    .cs_assets label,
+    .cs_users label,
+    .cs_country label {
+        font-size: 14px
+    }
+
+    .cs_FilterLst {
+        width: 80%;
+        display: block;
+        padding: 0;
+        border-right: 0;
+        margin: 0 auto
+    }
+
+    .cs_check {
+        top: 9px
+    }
+
+    .cs_ViewSec {
+        overflow: auto
+    }
+
+    .zcs_indusGrp,
+    #zcs_users,
+    #zcs_country {
+        overflow-y: inherit;
+        height: auto
+    }
+
+    .mbl_tabnavSec {
+        display: flex
+    }
+
+    .cs_FilterLst.active,
+    .cs_FilterLst.zcs_interSec.active,
+    .cs_FilterLst:nth-child(2).active {
+        display: block;
+        box-sizing: border-box
+    }
+
+    .cs_FilterLst.zcs_interSec,
+    .cs_FilterLst,
+    .cs_FilterLst:nth-child(2) {
+        width: 80%;
+        max-height: 550px;
+        overflow: auto;
+        display: none
+    }
+
+    .zcs_flrclose {
+        top: 36%
+    }
+
+    .tesmo_carousal .zcsPrv_sld:after,
+    .tesmo_carousal .zcsNxt_sld:after {
+        left: 47%;
+        border-width: 1px 1px 0 0;
+        padding: 3px
+    }
+
+    .zcs_ValGrp {
+        font-size: 16px;
+        padding: 0 15px
+    }
+
+    .tesmo_carousal .zcsPrv_sld,
+    .tesmo_carousal .zcsNxt_sld {
+        width: 30px;
+        height: 30px
+    }
+
+    .tesmo_carousal {
+        padding: 25px 0 0
+    }
+
+    .zcs_tesmo_info {
+        padding: 30px
+    }
+
+    .cs_lstInner {
+        display: block
+    }
+
+    .zcs_stryInner {
+        max-width: 100%
+    }
+
+    .zcs_storyInfo {
+        padding: 40px 0 0
+    }
+
+    .cs_ViewInner {
+        padding: 20px 0;
+        min-height: 650px;
+        width: 100%
+    }
+
+    .fltr_lftSec {
+        display: none
+    }
+
+    .fltr_rhtSec {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        min-height: 30px
+    }
+
+    .cs_FlrViewer {
+        padding-top: 15px
+    }
+
+    .fltr_resultSec {
+        border-bottom: 0;
+        padding-bottom: 10px;
+        justify-content: flex-end;
+        width: 80%;
+        margin: 0 auto
+    }
+
+    .cs_detailLst {
+        width: 100%
+    }
+
+    .cs_pagination {
+        padding-bottom: 25px
+    }
+
+    .pgi_prev::after,
+    .pgi_nxt::after {
+        top: 1px
+    }
+
+    .pgi_prev,
+    .pgi_nxt {
+        font-size: 15px;
+        padding: 0 10px 0 20px
+    }
+
+    .pgi_nxt {
+        padding: 0 20px 0 10px
+    }
+
+    .pgi_numberSec {
+        padding: 0 10px
+    }
+
+    .pgi_numbers {
+        width: 35px;
+        height: 35px;
+        margin: 0 4px;
+        font-size: 16px
+    }
+
+    .cs_viewall,
+    .cs_viewless {
+        font-size: 16px
+    }
+
+    .vid_spkrGrp {
+        padding: 15px 20px
+    }
+
+    .cx-testiSec,
+    .desk-template .cx-testiSec {
+        width: 90%
+    }
+
+    .cx-LstInner {
+        padding: 30px 25px
+    }
+
+    .cx-HeaderInner {
+        padding: 100px 0 70px
+    }
+
+    .zct_Desc_grp p {
+        font-size: 18px
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .zct_bannerInner {
+        padding: 80px 0
+    }
+
+    .cs_detailLst {
+        width: 100%
+    }
+
+    .cs_detailInner {
+        padding: 50px 0
+    }
+
+    .smart_filter {
+        padding: 15px 10px;
+        font-size: 15px
+    }
+
+    .tesmo_sec {
+        height: auto
+    }
+
+    .cs_testiInner {
+        width: 100%
+    }
+
+    .cs_Filter {
+        width: 100%;
+        text-align: center
+    }
+
+    .cs_FlrElement {
+        padding: 10px
+    }
+
+    .cs_FilterBox {
+        padding: 6px 40px 6px 8px;
+        margin-left: 6px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 60%
+    }
+
+    .zcs_flrReset {
+        font-size: 14px;
+        margin: 0 auto;
+        border-bottom: 0;
+        display: block;
+        text-align: center
+    }
+
+    .zcs_flrclose {
+        top: 7%;
+        font-size: 14px
+    }
+
+    .zcs_sticky .cs_Filter {
+        padding: 10px 0
+    }
+
+    .pgi_numbers {
+        width: 32px;
+        height: 32px;
+        font-size: 15px
+    }
+
+    .pgi_prev,
+    .pgi_nxt {
+        font-size: 15px;
+        padding: 0 5px 0 20px
+    }
+
+    .pgi_nxt {
+        padding: 0 20px 0 5px
+    }
+
+    .Tags_filter {
+        width: 250px
+    }
+
+    .fltr_resultSec {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: border-box !important
+    }
+
+    .mbl_tabnavSec {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        padding: 15px 15px 10px;
+        box-sizing: border-box !important
+    }
+
+    .cs_FlrViewer {
+        padding-top: 10px
+    }
+
+    .cs_ViewInner {
+        padding: 15px 0;
+        min-height: 450px
+    }
+
+    .cs_FilterLst.zcs_interSec,
+    .cs_FilterLst,
+    .cs_FilterLst:nth-child(2) {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+        max-height: 450px
+    }
+
+    .cx-HeaderInner {
+        padding: 80px 0 60px
+    }
+}
+
+@media only screen and (max-width:450px) {
+
+    .cs_FlrElement,
+    .cs_FilterBox,
+    .mbl_Industry {
+        font-size: 14px
+    }
+
+    .zct_bannerInner {
+        padding: 80px 0 60px
+    }
+
+    .cs_FilterLst.zcs_interSec,
+    .cs_FilterLst {
+        max-height: 420px
+    }
+
+    .cs_ViewInner {
+        min-height: 500px
+    }
+
+    .Tags_filter {
+        width: 210px
+    }
+
+    .flr_tagtxt {
+        min-width: 135px
+    }
+
+    .cs_FilterBox:after {
+        top: 7px
+    }
+}
+
+@media only screen and (max-width:375px) {
+
+    .cs_FilterLst.zcs_interSec,
+    .cs_FilterLst {
+        max-height: 380px
+    }
+
+    .cs_ViewInner {
+        min-height: 460px
+    }
+
+    .Tags_filter {
+        width: 180px
+    }
+
+    .pgi_prev,
+    .pgi_nxt {
+        font-size: 13px
+    }
+
+    .pgi_prev::after,
+    .pgi_nxt::after {
+        top: 0
+    }
+
+    .pgi_numbers.mid_dots {
+        pointer-events: none;
+        width: 22px;
+        height: 25px
+    }
+
+    .pgi_numbers {
+        width: 30px;
+        height: 30px;
+        font-size: 14px
+    }
+
+    .pgi_numberSec {
+        padding: 0 6px
+    }
+
+    .smart_filter {
+        padding: 12px 10px
+    }
+}

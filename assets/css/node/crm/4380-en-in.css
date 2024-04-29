@@ -1,0 +1,171 @@
+.zcrmhm-bancnt {
+    align-items: center
+}
+
+.entrpse-img {
+    bottom: -6px
+}
+
+.blu-str {
+    background-position: -501px -79px;
+    width: 128px;
+    height: 27px
+}
+
+.cenu {
+    background-position: -110px -290px;
+    width: 196px;
+    height: 36px;
+    opacity: .6
+}
+
+.bluestar {
+    background-position: -6px -69px
+}
+
+.bg_lazy_loaded .sprite-icns-svg-v2 {
+    background-image: url(//www.zohowebstatic.com/sites/zweb/images/crm/crm-home-sprite-in.png)
+}
+
+.sprite-icns-svg-v2 {
+    background-size: 1117px auto;
+    background-repeat: no-repeat
+}
+
+.cust-lgocnt span.taff {
+    background-position: -10px -10px;
+    width: 96px;
+    height: 54px
+}
+
+.cust-lgocnt span.zoom-car {
+    background-position: -114px -10px;
+    width: 111px;
+    height: 54px
+}
+
+.cust-lgocnt span.icici-pret {
+    background-position: -800px -10px;
+    width: 144px;
+    height: 54px
+}
+
+.cust-lgocnt span.blue-star {
+    background-position: -233px -10px;
+    width: 118px;
+    height: 54px
+}
+
+.agappe-india {
+    background-position: -10px -72px;
+    width: 165px;
+    height: 14px
+}
+
+.fundsindia {
+    background-position: -298px -72px;
+    width: 193px;
+    height: 42px
+}
+
+.chai-point {
+    background-position: -184px -72px;
+    width: 105px;
+    height: 41px
+}
+
+.tst-top-txt {
+    font: 39px/52px var(--zf-primary-regular);
+    padding: 55px 40px 100px
+}
+
+.ftr-btn {
+    border: 1px solid #757575;
+    color: #757575
+}
+
+.cstmr-cntnt-sec .pdng-top {
+    padding-top: 125px
+}
+
+.prdcty-inrsec .sub-hdr {
+    color: #0056e1
+}
+
+.inrh1 {
+    -webkit-text-stroke: 1px #fff;
+    color: #0056d4;
+    display: block
+}
+
+h1 {
+    font-size: 75px
+}
+
+.ban-lftcnt {
+    max-width: 680px
+}
+
+.zcrmhm-bansec {
+    margin: -71px auto 0;
+    padding: 150px 30px 90px
+}
+
+.ban-vrimg {
+    bottom: -125px
+}
+
+@media only screen and (max-width:1330px) {
+    .entrpse-img {
+        bottom: 0
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .ban-lftcnt {
+        max-width: 580px
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .cstmr-cntnt-sec .pdng-top {
+        padding-top: 90px
+    }
+
+    .ban-para {
+        padding: 15px 20px 20px 0
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .ban-para {
+        padding: 15px 0 20px
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .cstmr-cntnt-sec .pdng-top {
+        padding-top: 65px
+    }
+
+    .zcrmhm-bansec {
+        margin: -71px auto 0;
+        padding: 100px 20px 415px
+    }
+
+    h1 {
+        font: 46px/1 var(--zf-primary-black)
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .zcrm-cussec {
+        margin: -348px auto 0;
+        border-radius: 24px
+    }
+
+    .zcrmhm-bansec {
+        margin: -71px auto 0;
+        padding: 100px 20px 415px
+    }
+}
