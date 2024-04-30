@@ -42,7 +42,7 @@
 }
 
 .zct_main h1 {
-    color: #ffffff;
+    color: #000;
     font: 56px/1.1 var(--zf-primary-extrabold);
     margin-bottom: 15px
 }
@@ -126,10 +126,9 @@
 }
 
 .zct_banner {
-    padding-top: 100px;
     background: #f2f7fe bottom url(//www.zohowebstatic.com/sites/zweb/images/crm/testimonials/testimonial-skyline-2x.png) no-repeat;
     width: 100%;
-    background-color: #010464;
+    background-color: #f2f7fe;
     background-size: contain
 }
 
@@ -162,8 +161,7 @@
 
 .zct_banner h2 {
     font: 22px/1.1 var(--zf-primary-bold);
-    margin-bottom: 5px;
-    color: #b8b6b6;
+    margin-bottom: 5px
 }
 
 .cs_lstSec:after {
@@ -192,7 +190,7 @@
     max-width: 1170px;
     width: 90%;
     background: #fff;
-    /* border-radius: 45px; */
+    border-radius: 45px;
     transition: all ease .4s
 }
 
@@ -380,7 +378,7 @@
     right: 20px;
     content: "";
     display: inline-block;
-    /* background: url(//www.zohowebstatic.com/sites/zweb/images/crm/testimonials/testimonial-icon-sprite.svg) no-repeat -17px -21px;  */
+    background: url(//www.zohowebstatic.com/sites/zweb/images/crm/testimonials/testimonial-icon-sprite.svg) no-repeat -17px -21px;
     width: 21px;
     height: 20px
 }

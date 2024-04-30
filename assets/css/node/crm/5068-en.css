@@ -52,7 +52,8 @@
     width: 49%;
     display: inline-block;
     color: #fff;
-    background-image: url(//www.zohowebstatic.com/sites/zweb/images/crm/images/bg_pattern2x.jpg);
+    background-color: #0067ff;
+    /* background-image: url(//www.zohowebstatic.com/sites/zweb/images/crm/images/bg_pattern2x.jpg); */
     background-size: 50%;
     vertical-align: top;
     padding: 150px 70px;
@@ -84,7 +85,7 @@ h1 {
 }
 
 .solu-header-rit p {
-    font: 24px/1.4 var(--zf-primary-semibold);
+    font: 22px/1.4 var(--zf-primary-semibold);
     color: #525050
 }
 
@@ -371,7 +372,8 @@ p {
 
 @media only screen and (max-width:1366px) {
     h1 {
-        font-size: 62px
+        font-size: 40px;
+        line-height: 60px;
     }
 
     .solu-banner-img {
@@ -465,7 +467,7 @@ p {
     }
 
     .solu-header-lft {
-        padding: 120px 30px 90px
+        padding: 180px 30px 90px
     }
 
     .Ncrm_breadcrumb {
@@ -473,7 +475,8 @@ p {
     }
 
     h1 {
-        font-size: 41px
+        font-size: 25px;
+        line-height: 50px;
     }
 
     .main-container-wrapper #mini-panel-product_menu .menu-icon-help-header .product-title a {
