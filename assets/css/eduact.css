@@ -32,12 +32,6 @@
   --eduact-white-rgb: 255, 255, 255;
 }
 
-
-
-
-
-
-
 .eduact-btn {
   display: inline-block;
   vertical-align: middle;
@@ -1240,11 +1234,11 @@ body.megamenu-popup-active .mobile-nav__content {
   justify-content: space-between;
   line-height: 30px;
   color: var(--eduact-white);
-  font-size: 16px;
+  font-size: 30px;
   font-family: var(--heading-font);
   text-transform: capitalize;
   font-weight: 600;
-  height: 46px;
+  height: 70px;
   letter-spacing: 0.48px;
   align-items: center;
   transition: 500ms;
