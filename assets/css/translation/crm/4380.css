@@ -317,7 +317,7 @@ h1 {
 
 .para {
     padding-top: 15px;
-    font: 18px/1.6 var(--zf-primary-regular)
+    font: 38px/1.6 var(--zf-primary-regular)
 }
 
 @media only screen and (max-width:992px) {
@@ -447,12 +447,11 @@ h1 {
 }
 
 .prdcty-wrkflw {
-    width: 54.5%;
-    margin: 0 -85px 0 0;
+    width: 95%;
+    margin: 10px 0px 47px 0;
     position: relative;
-    z-index: 1
+    z-index: 1;
 }
-
 .wrkflw-img {
     position: absolute;
     left: 30%;
@@ -596,7 +595,7 @@ h1 {
     padding-left: 95px;
     box-sizing: border-box;
     margin-bottom: 25px;
-    font: 18px/1.4 var(--zf-primary-regular);
+    font: 25px/1.4 var(--zf-primary-regular);
     position: relative;
     letter-spacing: -0.16px
 }
@@ -825,12 +824,12 @@ h1 {
 }
 
 .testimonila-para {
-    font: 22px/1.6 var(--zf-primary-semibold);
+    font: 35px/1.6 var(--zf-primary-semibold);
     letter-spacing: -0.55px
 }
 
 .cstmr-detail {
-    font: 16px/38px var(--zf-primary-bold);
+    font: 30px/38px var(--zf-primary-bold);
     display: inline-block;
     padding-right: 35px;
     position: relative;
@@ -2009,7 +2008,7 @@ div#zpromotion_nl .zpremoclose, div#zpromotion_fr .zpremoclose {
     }
 
     .prdcty-wrkflw {
-        width: 60%;
+        width: 95%;
         top: 0
     }
 
@@ -2018,7 +2017,7 @@ div#zpromotion_nl .zpremoclose, div#zpromotion_fr .zpremoclose {
     }
 
     .testimonila-para {
-        font-size: 18px;
+        font-size: 35px;
         letter-spacing: -0.45px;
         padding: 0 !important
     }
@@ -2028,7 +2027,7 @@ div#zpromotion_nl .zpremoclose, div#zpromotion_fr .zpremoclose {
     }
 
     .cstmr-detail span {
-        font-size: 15px
+        font-size: 35px
     }
 
     .testimonial-logo {
