@@ -1245,7 +1245,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 
 .mobile-nav__content {
-  width: 400px;
+  width: 800px;
   background-color: #212330;
   z-index: 10;
   position: relative;
