@@ -12335,7 +12335,7 @@ body.boxed-wrapper .page-wrapper {
   display: flex;
   align-items: center;
   font-family: var(--heading-font);
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: 600;
   text-transform: capitalize;
   letter-spacing: 0.48px;
@@ -13077,4 +13077,8 @@ body.megamenu-popup-active .mobile-nav__content {
   font-size: 50px;
   color: var(--eduact-white);
   cursor: pointer;
+}
+
+.stricky-header a {
+  color: #000000 !important;
 }
