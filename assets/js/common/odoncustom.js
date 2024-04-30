@@ -4234,44 +4234,7 @@ $(document).on("blur", ".globalcountrycode-signup", function () {
     $(".za-country-container").removeClass("added-placeholder")
 });
 
-function CheckelEmentSignup() {
-    var h = setTimeout(function () {
-        if ($(".signup-box form").length > 0) {
-            if ($(".za-captcha-container").length > 0) {
-                if ($(".za-country-container").length < 1) {
-                    $(".za-captcha-container").after('<div class="za-country-container za-country-container-arrow"> <select class="form-input countryCnt za-country-select globalcountrycode-signup" name="country" id="country" placeholder="Select Country" aria-invalid="false"></select> </div>')
-                }
-                if ($(".za-newsletter-container").length > 0) {
-                    $(".za-newsletter-container").html('<label for="newsletter" class="news-signup sign_agree"> <input tabindex="1" class="za-newsletter" type="checkbox" id="newsletter" name="newsletter" value="true" onclick="toggleNewsletterField()"> <span class="icon-medium" id="signup-newsletter"></span> <span>' + _txtIwould + "</span> </label>");
-                    $(".za-newsletter-container").css("display", "none");
-                    if (window.location.href.indexOf("mdm-cloud.html") > 0 && window.location.host == _preZ) {
-                        $(".za-newsletter-container").addClass("zshow");
-                        $(".icon-medium").addClass("checked");
-                        $("#signupform [name='newsletter']").attr("checked", "true")
-                    }
-                }
-            }
-            if ($(".za-country-container").length > 0) {
-                if ($(".za-country-container .placeholder").length < 1) {
-                    $(".za-country-container").prepend('<span class="placeholder">' + Drupal.t("Country/Region") + "</span>")
-                }
-            }
-            var j = document.createElement("script");
-            j.type = "text/javascript";
-            j.src = "https://www.zohowebstatic.com/sites/zweb/js/common/gdpr-compliance-signup.js";
-            if (window.location.host == _preZ) {
-                j.src = "https://" + _preZ + "/sites/zweb/js/common/gdpr-compliance-signup.js"
-            }
-            document.getElementsByTagName("head")[0].appendChild(j);
-            clearInterval(h)
-        } else {
-            intervalSignupCount++;
-            if (intervalSignupCount < 500) {
-                CheckelEmentSignup()
-            }
-        }
-    }, 1)
-}
+
 $(document).ready(function () {
     if (typeof CheckelEment == "function") {
         CheckelEment()

@@ -1,0 +1,539 @@
+.zwph-white .expanded.dropdown .caret::after {
+    border-top: 5px solid #000
+}
+
+.zwph-white .menu li, .zwph-white .menu>li>a, .zwph-white .menu>li>.nolink {
+    color: #000
+}
+
+.zwph-white .product-title>a {
+    color: #000
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: inherit;
+    -webkit-font-smoothing: antialiased
+}
+
+.crm-solution-main {
+    width: 100%;
+    margin: 0 auto
+}
+
+.act-btn {
+    display: inline-block;
+    font-family: var(--zf-primary-semibold), Arial, Helvetica, sans-serif;
+    padding: 8px 30px;
+    margin: 0;
+    color: #fff;
+    border: 1px solid transparent;
+    cursor: pointer;
+    box-sizing: border-box;
+    z-index: 1;
+    font-size: 15px
+}
+
+.cta-btn {
+    border: none !important;
+    visibility: visible !important;
+    opacity: 1 !important
+}
+
+.solu-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative
+}
+
+.solu-header-lft {
+    width: 49%;
+    display: inline-block;
+    color: #fff;
+    background-image: url(//www.zohowebstatic.com/sites/zweb/images/crm/images/bg_pattern2x.jpg);
+    background-size: 50%;
+    vertical-align: top;
+    padding: 150px 70px;
+    box-sizing: border-box;
+    position: relative
+}
+
+.solu-header-rit {
+    width: 49%;
+    display: inline-block;
+    color: #000;
+    padding: 145px 70px 0 100px;
+    position: relative;
+    box-sizing: border-box
+}
+
+.solu-banner-img {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    z-index: 2
+}
+
+h1 {
+    font: 72px/1 var(--zf-primary-extrabold);
+    letter-spacing: -1.2px;
+    text-transform: uppercase;
+    margin-bottom: 25px
+}
+
+.solu-header-rit p {
+    font: 24px/1.4 var(--zf-primary-semibold);
+    color: #525050
+}
+
+h2 {
+    font: 48px/1.1 var(--zf-primary-extrabold);
+    margin-bottom: 25px;
+    letter-spacing: -0.5px
+}
+
+.lit-fnt {
+    font: 48px/1.1 var(--zf-primary-light);
+    color: #fff;
+    display: block
+}
+
+p {
+    font: 20px/1.6 var(--zf-primary-regular)
+}
+
+.bg_lazy_loaded .dark-patrn {
+    background-image: url("//www.zohowebstatic.com/sites/zweb/images/crm/images/dark-bg-pattern.jpg")
+}
+
+.solu-industri {
+    padding: 145px 0 0;
+    text-align: center
+}
+
+.industries-cont {
+    max-width: 1036px;
+    margin: 0 auto
+}
+
+.industries-cont p {
+    color: #b4b4b4
+}
+
+.bussiness-cont-main p {
+    color: #444
+}
+
+.industries-cont h2, .bussiness-cont-main h2 {
+    color: #0067ff
+}
+
+.sales-cont {
+    max-width: 1100px;
+    margin: 405px auto -105px;
+    color: #fff;
+    padding: 85px 80px;
+    box-sizing: border-box;
+    text-align: left;
+    display: inline-block;
+    border-radius: 8px;
+    position: relative
+}
+
+.bg_lazy_loaded .blue-ptrn {
+    background: url(//www.zohowebstatic.com/sites/zweb/images/crm/images/blue_pattern2x.jpg);
+    background-size: 50%
+}
+
+.sales-cont-lft {
+    width: 58%;
+    display: inline-block
+}
+
+.sales-cont h2 {
+    color: #f4d25c
+}
+
+.bussiness-cont {
+    padding: 240px 0 0
+}
+
+.bussiness-cont-main {
+    max-width: 980px;
+    margin: 0 auto -7px;
+    color: #000;
+    text-align: center
+}
+
+.bussiness-cont-main .lit-fnt {
+    color: #000
+}
+
+.solu-footer {
+    padding: 140px 0;
+    text-align: center
+}
+
+.solu-footer h2 {
+    color: #fff
+}
+
+.solu-list li {
+    list-style-type: none;
+    border-radius: 25px;
+    margin: 30px 20px 0 0;
+    padding: 8px 10px 8px 25px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #0067ff;
+    transition: .8s ease all
+}
+
+.solu-list li a {
+    font: 20px var(--zf-secondary-medium);
+    color: #fff;
+    display: inline-block
+}
+
+.lst-txt {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px
+}
+
+.list-crcl {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #fff;
+    margin-left: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative
+}
+
+.slu-arrow {
+    position: absolute;
+    display: inline-block;
+    background-image: url(//www.zohowebstatic.com/sites/zweb/images/crm/images/solution-arrow.svg);
+    width: 21px;
+    height: 8px;
+    left: 6px;
+    top: 13px
+}
+
+.solu-list li:hover .list-crcl {
+    background: #f4d25c
+}
+
+.sales-cont-lft .solu-list li {
+    background: #002165
+}
+
+.sales-img {
+    position: absolute;
+    max-width: 795px;
+    top: -46.5%;
+    right: -10px
+}
+
+.bussiness-img {
+    max-width: 1200px;
+    margin: 85px auto 0;
+    display: block;
+    width: 100%
+}
+
+.industries-cont .solu-list {
+    margin: 30px auto 0;
+    max-width: 900px
+}
+
+.animated-showing {
+    transition: 1s opacity cubic-bezier(.25, .46, .45, .94), 1s transform cubic-bezier(.25, .46, .45, .94)
+}
+
+.animated-showing.animated-delay-100 {
+    transition-delay: .3s
+}
+
+.animated-showing.animated-delay-150 {
+    transition-delay: .6s
+}
+
+.animated-showing.animated-delay-200 {
+    transition-delay: .9s
+}
+
+.animated-showing.animated-delay-300 {
+    transition-delay: 1.2s
+}
+
+.animated-showing.animated-initial {
+    opacity: 0;
+    -ms-transform: translateY(12px);
+    transform: translateY(12px)
+}
+
+* Breadcrumb CSS start */.software-sec {
+    background: #f0f3f8;
+    padding-bottom: 1px
+}
+
+.Ncrm_breadcrumb {
+    text-align: left;
+    list-style-type: none;
+    margin: 0 auto;
+    position: absolute;
+    top: 40px
+}
+
+.Ncrm_breadcrumb li {
+    display: inline-block;
+    margin: 0 25px 0 0;
+    font: 12px/1.2 var(--zf-primary-semibold);
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2
+}
+
+.Ncrm_bcLnk {
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    font: 12px/1.2 var(--zf-primary-semibold)
+}
+
+.Ncrm_bcLnk:before {
+    content: ">";
+    position: absolute;
+    right: -15px;
+    display: inline-block;
+    color: #fff
+}
+
+.Ncrm_bcLnk:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: -4px;
+    height: 1px;
+    width: 0;
+    background: #fff;
+    transition: all .3s linear
+}
+
+.Ncrm_bcLnk:hover {
+    color: #fff
+}
+
+.Ncrm_bcLnk:hover:after {
+    width: 100%;
+    left: 0;
+    right: auto;
+    transition: all .2s linear
+}
+
+.crm-hub-ctasec {
+    display: none
+}
+
+@media only screen and (min-width:1920px) {
+    .solu-banner-img {
+        left: 54%
+    }
+}
+
+@media only screen and (min-width:2560px) {
+    .solu-header-rit {
+        padding: 220px 240px 0 200px
+    }
+
+    .solu-header-lft {
+        padding: 225px 200px
+    }
+
+    .solu-banner-img {
+        left: 56.5%
+    }
+}
+
+@media only screen and (max-width:1680px) {
+    .solu-header-lft {
+        padding: 150px 0 150px 70px
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    h1 {
+        font-size: 62px
+    }
+
+    .solu-banner-img {
+        max-width: 710px
+    }
+}
+
+@media only screen and (max-width:1160px) {
+    h2, .lit-fnt {
+        font-size: 38px
+    }
+
+    .solu-banner-img {
+        display: none;
+        max-width: 100%
+    }
+
+    .animated-showing.animated-initial {
+        opacity: 1;
+        transform: inherit
+    }
+
+    .im-media-anim {
+        -webkit-transform: translateY(0rem);
+        transform: translateY(0rem);
+        transition: inherit;
+        opacity: 1
+    }
+
+    .solu-header-lft {
+        width: 100%;
+        display: inline-block;
+        padding: 120px 30px
+    }
+
+    .solu-header-rit {
+        width: 100%;
+        display: inline-block;
+        padding: 100px 30px 0
+    }
+
+    .solu-header {
+        display: block;
+        text-align: center
+    }
+
+    .solu-banner-img {
+        position: static
+    }
+
+    .solu-industri {
+        padding: 110px 0 0
+    }
+
+    .sales-img {
+        display: none
+    }
+
+    .sales-cont {
+        border-radius: 0;
+        margin: 110px auto 0;
+        padding: 85px 30px
+    }
+
+    .sales-cont-lft {
+        width: 100%;
+        display: inline-block;
+        text-align: center
+    }
+
+    .bussiness-cont {
+        padding: 110px 0 0
+    }
+
+    .solu-footer {
+        padding: 110px 30px
+    }
+
+    .industries-cont {
+        margin: 0 30px
+    }
+
+    .bussiness-cont-main {
+        margin: 0 30px -7px
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .crm-solution-main {
+        margin: -80px auto 0
+    }
+
+    .solu-header-lft {
+        padding: 120px 30px 90px
+    }
+
+    .Ncrm_breadcrumb {
+        display: none
+    }
+
+    h1 {
+        font-size: 41px
+    }
+
+    .main-container-wrapper #mini-panel-product_menu .menu-icon-help-header .product-title a {
+        color: #fff
+    }
+}
+
+@media only screen and (max-width:640px) {
+    h2, .lit-fnt {
+        font-size: 30px
+    }
+
+    .solu-industri {
+        padding: 80px 0 0
+    }
+
+    .sales-cont {
+        margin: 80px auto 0;
+        padding: 80px 30px
+    }
+
+    .bussiness-cont {
+        padding: 80px 0 0
+    }
+
+    .solu-footer {
+        padding: 80px 30px
+    }
+
+    .solu-header-rit {
+        padding: 80px 30px 0
+    }
+
+    .bussiness-cont-main, .sales-cont-lft, .solu-industri {
+        text-align: left
+    }
+
+    .solu-list li {
+        padding: 6px 10px 6px 25px;
+        font-size: 18px
+    }
+
+    .list-crcl {
+        min-width: 34px
+    }
+
+    .lst-txt {
+        margin-top: 0
+    }
+
+    .solu-list li a {
+        font: 18px/1.2 var(--zf-secondary-medium);
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .solu-list li a {
+        font: 16px/1.2 var(--zf-secondary-medium)
+    }
+}
