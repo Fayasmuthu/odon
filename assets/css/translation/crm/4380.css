@@ -115,6 +115,7 @@ h1 {
     padding: 15px 0 20px
 }
 
+
 .zcrm-cust-mainsec {
     background: #262626
 }
@@ -317,6 +318,12 @@ h1 {
 .para {
     padding-top: 15px;
     font: 18px/1.6 var(--zf-primary-regular)
+}
+
+@media only screen and (max-width:992px) {
+    .ban-para {
+        font: 25px/1.6 var(--zf-primary-regular) !important;
+    }
 }
 
 .learnmore {
@@ -1105,7 +1112,7 @@ h1 {
 }
 
 .crmbadge-txt, .i18n-en .crmbadge-txt {
-    font: 14px/1 var(--zf-primary-regular) !important;
+    font: 30px/1 var(--zf-primary-regular) !important;
     color: #000;
     background: #eee;
     border-radius: 20px;
@@ -1120,11 +1127,11 @@ h1 {
 }
 
 .testimonial_slider_footer ul h2, .testimonial_slider_footer ul h3, .testimonial_slider_footer h2, .testimonial_slider_footer h3 {
-    font: 15px/1.5 var(--zf-primary-bold)
+    font: 25px/1.5 var(--zf-primary-bold)
 }
 
 .testimonial_slider_footer p, .testimonial_slider_footer li {
-    font: 14px/1.8 var(--zf-primary-regular);
+    font: 25px/1.8 var(--zf-primary-regular);
     padding-bottom: 15px
 }
 

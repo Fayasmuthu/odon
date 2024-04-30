@@ -1758,7 +1758,7 @@ a.nav-go h4 {
 }
 
 .footer-sec-wrap .product-links ul li a {
-    font: 14px/20px 'Roboto';
+    font: 20px/20px 'Roboto';
     font-weight: 400;
     position: relative;
     bottom: inherit;
@@ -2013,7 +2013,7 @@ section.footer-help-cont {
 
 .footer-sec-wrap .product-links h4 {
     margin: 0 0 10px;
-    font: 16px var(--zf-primary-bold);
+    font: 20px var(--zf-primary-bold);
     color: #fff;
     text-transform: uppercase;
     position: relative

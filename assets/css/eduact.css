@@ -12552,7 +12552,7 @@ body.boxed-wrapper .page-wrapper {
 }
 
 .main-menu__login {
-  font-size: 24px;
+  font-size: 50px;
   margin-left: 11px;
 }
 
@@ -12647,6 +12647,12 @@ body.boxed-wrapper .page-wrapper {
 
 @media (max-width: 767px) {
   .main-menu__info {
+    display: none;
+  }
+}
+
+@media (min-width: 991px) {
+  .main-menu__login {
     display: none;
   }
 }
