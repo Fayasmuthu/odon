@@ -317,12 +317,18 @@ h1 {
 
 .para {
     padding-top: 15px;
-    font: 38px/1.6 var(--zf-primary-regular)
+    font: 22px/1.6 var(--zf-primary-regular)
 }
 
 @media only screen and (max-width:992px) {
     .ban-para {
         font: 25px/1.6 var(--zf-primary-regular) !important;
+    }
+}
+
+@media only screen and (max-width:512px) {
+    .para {
+        font: 38px/1.6 var(--zf-primary-regular) !important;
     }
 }
 
