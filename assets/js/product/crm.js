@@ -222,8 +222,8 @@ jQuery(document).ready(function() {
         $(".hub-bakicn").remove()
     }
     var c = '<div class="crm-hub-ctasec bottom-promo"><div class="btm-cta-inner"><div class="btm-cta-img-con"><picture><source class="webp" data-srcset="/sites/zweb/images/crm/zcrm_signup_promo.webp 2x, /sites/zweb/images/crm/zcrm_signup_promo_1x.webp 1x" type="image/webp"><source class="other_format" data-srcset="/sites/zweb/images/crm/zcrm_signup_promo.png 2x" type="image/jpeg"><img class="zcp_lazy zcp_loading" src="/sites/zweb/images/crm/zcrm_signup_promo_lazy.png" data-src="/sites/zweb/images/crm/zcrm_signup_promo_1x.png" alt="Sign up for CRM software | Zoho CRM" width="457" height="244"></picture></div><div class="btm-cta-txt-con"><h3>' + Drupal.t("Improved Sales.") + ' <span class="inner_wrap">' + Drupal.t("Lasting Relationships.") + '</span><span class="inner_wrap">' + Drupal.t("Faster Growth.") + '</span></h3><p class="btm-cta-para">' + Drupal.t("15-day free trial. No credit card required.") + '</p><a class="crm-hub-sinup zcrm-pricingtoggle " href="' + langsrc + 'crm/signup.html?plan=enterprise&source_from=btm_promo">' + Drupal.t("Sign Up For Free") + '</a><a class="crm-hub-sinup crm-hub-plansbtn " href="' + langsrc + 'crm/zohocrm-pricing.html?source_from=btm_promo">' + Drupal.t("SEE PLANS AND PRICING") + "</a></div></div></div>";
-    priBanner = '<a href="https://blog.zoho.com/crm/quarter-1-2024-update.html?source_from=ftbanner" target="_blank"  rel="noopener"><picture><source class="webp" data-srcset="/sites/zweb/images/crm/footer_q4-2x.webp 2x, /sites/zweb/images/crm/footer_q4-1x.webp 1x" type="image/webp"><source class="other_format" type="image/jpeg" data-srcset="/sites/zweb/images/crm/footer_q4-2x.jpg 2x"><img alt="Whats-new-in-zoho-crm-2023" src="/sites/zweb/images/crm/footer_q4-lazy.jpg" data-src="/sites/zweb/images/crm/footer_q4-1x.jpg" width="350" height="210" class="zcp_lazy zcp_loading"></picture></a>';
-    priBannerInner = '<a href="https://www.zoho.com/crm/webinars/?source_from=ftbanner" id="footer_sec_img"><picture><source class="webp" data-srcset="/sites/zweb/images/crm/images/crm-webinar-footer-2x.webp 2x, /sites/zweb/images/crm/images/crm-webinar-footer-1x.webp 1x" type="image/webp"><source class="other_format" type="image/jpeg" data-srcset="/sites/zweb/images/crm/images/crm-webinar-footer-2x.jpg 2x"><img alt="zoho-crm-live-webinars-2023-footer" src="/sites/zweb/images/crm/images/crm-webinar-footer-1kb.jpg" data-src="/sites/zweb/images/crm/images/crm-webinar-footer-1x.jpg" width="350px" height="210px" class="zcp_lazy zcp_loading"></picture></a>';
+    priBanner = '<a href="" target="_blank"  rel="noopener"><picture><source class="webp" data-srcset="/sites/zweb/images/crm/footer_q4-2x.webp 2x, /sites/zweb/images/crm/footer_q4-1x.webp 1x" type="image/webp"><source class="other_format" type="image/jpeg" data-srcset="/sites/zweb/images/crm/footer_q4-2x.jpg 2x"><img alt="Whats-new-in-zoho-crm-2023" src="/sites/zweb/images/crm/footer_q4-lazy.jpg" data-src="/sites/zweb/images/crm/footer_q4-1x.jpg" width="350" height="210" class="zcp_lazy zcp_loading"></picture></a>';
+    priBannerInner = '<a href="" id="footer_sec_img"><picture><source class="webp" data-srcset="/sites/zweb/images/crm/images/crm-webinar-footer-2x.webp 2x, /sites/zweb/images/crm/images/crm-webinar-footer-1x.webp 1x" type="image/webp"><source class="other_format" type="image/jpeg" data-srcset="/sites/zweb/images/crm/images/crm-webinar-footer-2x.jpg 2x"><img alt="zoho-crm-live-webinars-2023-footer" src="/sites/zweb/images/crm/images/crm-webinar-footer-1kb.jpg" data-src="/sites/zweb/images/crm/images/crm-webinar-footer-1x.jpg" width="350px" height="210px" class="zcp_lazy zcp_loading"></picture></a>';
     secfooterBnr = "";
     if (CountryCode == "AU") {
         secfooterBnr = '<div class="zau-location"><h5>Australia Office </h5><p class="zau-address">Suite 4.04, Level 4,<br>30 Currie Street, <br>Adelaide SA 5000</p><p class="zau-toll-free zau-title">Interested in learning more about our product?</p><p class="zau-toll-free">We are just a phone call away. <span>Call us at <a href="tel:+61280662898">+61 280662898</a> (Toll-free)</span></p></div>'
@@ -233,13 +233,13 @@ jQuery(document).ready(function() {
     var f;
     f = '<div class="promo-section-wrap"> ' + priBannerInner + priBanner + secfooterBnr + "</div>";
     var e = "";
-    var b = "https://forums.zoho.com/zoho-crm";
-    var a = "https://www.zoho.com/crm/consultants/?source_from=ft";
+    var b = "";
+    var a = "";
     targetBlank = "";
     if (encodeURI(document.location).indexOf("/jp/") > 0) {
         targetBlank = 'target="blank"';
-        b = "http://zjcrew.zohosites.com/";
-        a = "https://www.zoho.com/jp/partner/"
+        b = "";
+        a = ""
     }
     if ((presentUrl.indexOf("srcPlan=NewCRM") == -1) && (presentUrl.indexOf("/crm/cx-platform/") == -1 && $("body").find(".ncrm-btn").length <= 0)) {
         e = '<div class="product-links three-column"><div class="product-about-box"><div class="features_box"><h4>' + Drupal.t("EXPLORE CRM") + '</h4><ul><li class="en-only"><a href="' + langsrc + 'crm/crm-essentials.html?source_from=crm-ft">' + Drupal.t("CRM Essentials") + '</a></li><li class="en-only"><a href="' + langsrc + 'crm/alternatives/?source_from=crm-ft">' + Drupal.t("CRM Alternatives") + '</a></li><li><a href="' + langsrc + 'crm/free-crm.html?source_from=crm-ft">' + Drupal.t("CRM for Free") + '</a></li><li><a href="' + langsrc + 'bigin/?source_from=crm-ft" target="_blank"  rel="noopener">' + Drupal.t("CRM for SMB") + '</a></li><li class="en-only"><a href="' + langsrc + 'crm/sales-pitch.html?source_from=crm-ft">' + Drupal.t("Sales Pitch") + '</a></li><li class="en-only"><a href="/crm/sales-funnel.html?source_from=crm-ft">' + Drupal.t("Sales Funnel") + '</a></li><li class="en-only"><a href="/crm/what-are-sales-pipelines.html?source_from=crm-ft">' + Drupal.t("Sales Pipeline") + '</a></li><li><a href="/crm/zoho-crm-for-google-workspace.html?source_from=crm-ft" >' + Drupal.t("Google Workspace CRM") + '</a></li><li><a href="' + langsrc + 'crm/social-crm.html?source_from=crm-ft&cxsrc_param=social-crm">' + Drupal.t("Social CRM") + '</a></li><li><a href="' + langsrc + 'crm/help-desk-crm.html?source_from=crm-ft&cxsrc_param=help-desk-crm">' + Drupal.t("Help Desk CRM") + '</a></li><li><a href="' + langsrc + 'crm/sales-assistant.html?source_from=crm-ft">' + Drupal.t("AI-Powered CRM") + '</a></li><li><a href="' + langsrc + 'crm/email-marketing-crm.html?source_from=crm-ft&cxsrc_param=email-marketing-crm">' + Drupal.t("Email Marketing CRM") + '</a></li><li><a href="' + langsrc + 'crm/sales-management-system.html?source_from=crm-ft">' + Drupal.t("Sales Management Software") + '</a></li><li class="en-only"><a href="/crm/opportunity-management.html?source_from=crm-ft">' + Drupal.t("Opportunity Management Software") + '</a></li></ul></div></div><div class="solution-links-box"><div class="solutions_box"><h4>' + Drupal.t("RESOURCES") + '</h4><ul><li><a href="' + langsrc + 'crm/what-is-crm.html?source_from=crm-ft">' + Drupal.t("What is CRM?") + '</a></li><li class="en-only"><a href="' + langsrc + 'crm/solutions.html?source_from=crm-ft">' + Drupal.t("Solutions & Verticals") + '</a></li><li><a href="/crm/resources/?source_from=crm-ft" id="res_lang_link">' + Drupal.t("Help Center") + '</a></li><li class="guide_tour en-only"><a href="/crm/resources/guided-tour/zoho-crm-overview.html?source_from=crm-ft" data-tb="true" target="_blank">Guided Tour</a></li><li><a href="/crm/consultants/?source_from=crm-ft">' + Drupal.t("Certified Consultants") + '</a></li><li><a href="https://help.zoho.com/portal/community/zoho-crm">' + Drupal.t("Customer Forum") + '</a></li><li class="en-only"><a href="/crm/whats-new/release-notes.html?source_from=crm-ft">' + Drupal.t("Release Notes") + '</a></li><li><a href="/crm/customer-success/?source_from=crm-ft">' + Drupal.t("Training") + '</a></li><li><a href="https://www.zoho.com/crm/crm-express/?source_from=crm-ft">' + Drupal.t("CRM Express - Blog") + '</a></li><li><a href="/crm/enterprise/?source_from=crm-ft">' + Drupal.t("CRM for Enterprises") + '</a></li></ul></div></div><div class="feature-resourse-box"><div class="more_product_box"><h4>' + Drupal.t("GET STARTED") + '</h4><ul><li class="en-only"><a href="' + langsrc + 'crm/request-callback.html?source_from=crm-ft">' + Drupal.t("Request Demo") + '</a></li><li><a href="' + langsrc + 'crm/why-choose-zoho-crm.html?source_from=crm-ft">' + Drupal.t("Why Zoho CRM?") + '</a></li><li><a href="' + langsrc + 'crm/integrations.html?source_from=crm-ft">' + Drupal.t("Integrations") + '</a></li><li class="en-only"><a href="' + langsrc + 'crm/compare?source_from=crm-ft&cxsrc_param=crmcomparepage">' + Drupal.t("Compare CRMs") + '</a></li><li><a href="/crm/edition-selector-quiz-zoho-crm.html?source_from=crm-ft">' + Drupal.t("Edition Selector Quiz") + '</a></li><li><a href="' + langsrc + 'crm/comparison.html?source_from=crm-ft">' + Drupal.t("Compare Plans") + '</a></li><li class="en-only"><a href="' + langsrc + 'crm/awards.html?source_from=crm-ft">' + Drupal.t("Awards & Titles") + '</a></li><li><a href="' + langsrc + 'crm/request-quote.html?source_from=crm-ft">' + Drupal.t("Get Price Quote") + '</a></li><li><a href="/contactus.html?source_from=crm-ft">' + Drupal.t("Contact Sales") + '</a></li></ul></div><div class="social_icons"><h4 class="connect_us_title">' + Drupal.t("Connect With Us") + '</h4><div><a class="new_crm_soc_sprite soc-icon2" href="https://linkedin.com/showcase/zohocrm/"  aria-label="Zoho CRM linkedin" rel="noopener" target="_blank">&nbsp;</a><a class="new_crm_soc_sprite soc-icon1" href="https://twitter.com/zohocrm" aria-label="Zoho CRM twitter" rel="noopener" target="_blank">&nbsp;</a><a class="new_crm_soc_sprite soc-icon3" href="https://www.instagram.com/zoho_crm/" aria-label="Zoho CRM instagram" rel="noopener" target="_blank">&nbsp;</a><a class="new_crm_soc_sprite soc-icon4" href="https://youtube.com/c/ZohoCRMofficial" aria-label="Zoho CRM Youtube" rel="noopener" target="_blank">&nbsp;</a><a class="new_crm_soc_sprite soc-icon5" href="https://www.facebook.com/crmzoho" aria-label="Zoho CRM facebook" rel="noopener" target="_blank">&nbsp;</a></div></div></div></div><div class="brand_icons"><span class="new_crm_soc_sprite footer-brand_icon1">&nbsp;</span><span class="new_crm_soc_sprite footer-brand_icon2">&nbsp;</span><span class="new_crm_soc_sprite footer-brand_icon3">&nbsp;</span><span class="new_crm_soc_sprite footer-brand_icon4">&nbsp;</span><span class="new_crm_soc_sprite footer-brand_icon5">&nbsp;</span><span class="new_crm_soc_sprite footer-brand_icon6">&nbsp;</span></div>';
@@ -475,8 +475,8 @@ function setSignupSrc() {
 window.onload = function() {
     if (countryEu.indexOf(CountryCode) > -1) {
         var a = $(".support-prd");
-        a.attr("href", "mailto:support@eu.zohocrm.com");
-        a.text("support@eu.zohocrm.com")
+        a.attr("href", "");
+        a.text("")
     }
     setSignupSrc();
     if (window.location.pathname == langsrc + "crm/zohocrm-pricing.html" || window.location.pathname == langsrc + "crm/comparison.html") {
@@ -717,14 +717,14 @@ $(document).on("click", ".pwd_eye", function() {
         b.attr("type", "password")
     }
 });
-var getStartedTranslt = Drupal.t("Get started"),
-    getStartednowTranslt = Drupal.t("Get started now"),
-    createAccTranslt = Drupal.t("Create account"),
-    signUpTranslt = Drupal.t("Sign Up"),
-    creatingthePortal = Drupal.t("Creating Account..."),
-    verify_otp = Drupal.t("Verify"),
-    verifyingOTP = Drupal.t("Verifying..."),
-    nameTranslt = Drupal.t("Please specify your Name");
+// var getStartedTranslt = Drupal.t("Get started"),
+//     getStartednowTranslt = Drupal.t("Get started now"),
+//     createAccTranslt = Drupal.t("Create account"),
+//     signUpTranslt = Drupal.t("Sign Up"),
+//     creatingthePortal = Drupal.t("Creating Account..."),
+//     verify_otp = Drupal.t("Verify"),
+//     verifyingOTP = Drupal.t("Verifying..."),
+//     nameTranslt = Drupal.t("Please specify your Name");
 
 
 
@@ -956,7 +956,7 @@ $(window).on("load", function() {
         chatPopupOpen()
     }
     if ((presentUrl.indexOf("https://blogs.zoho.jp/") == -1 && presentUrl.indexOf("/crm/developer/docs/") == -1) && langsrc == "/pt-br/") {
-        $("body").append('<a class="pt-br-whatsapp-link" href="https://wa.me/554888357047" target="_blank" rel="noopener"><span></span></a>').show()
+        $("body").append('<a class="pt-br-whatsapp-link" href="https://wa.me/" target="_blank" rel="noopener"><span></span></a>').show()
     }
     $(document).on("click", ".zwf_close_icn", function() {
         $(".ztopstrip-container").fadeOut(350)
@@ -1174,17 +1174,17 @@ $(document).ready(function() {
     if (presentUrl.indexOf("/crm/resources/tips/") != -1) {
         $(".banner-section").css("background", "#0060ff url(/sites/zweb/images/crm/bannerbg-blue-pattern.svg) repeat")
     }
-    $(".i18n-nl .social_icons").find("a.soc-icon1").attr("href", "https://twitter.com/ZohoBenelux/");
-    $(".i18n-nl .social_icons").find("a.soc-icon2").attr("href", "https://www.linkedin.com/showcase/zoho-benelux/")
+    $(".i18n-nl .social_icons").find("a.soc-icon1").attr("href", "");
+    $(".i18n-nl .social_icons").find("a.soc-icon2").attr("href", "")
 });
 $(window).on("load", function() {
     urlNewCRMParam();
     if (langsrc == "/pt-br/") {
-        $('a[href*="sales@zohocorp.com"').each(function() {
-            if ($(this).html().indexOf("sales@zohocorp.com") != -1) {
+        $('a[href*=""').each(function() {
+            if ($(this).html().indexOf("") != -1) {
                 var a = $(this).html();
-                $(this).html(a.replace(/sales@zohocorp.com/g, "vendas@zohocorp.com"));
-                $(this).attr("href", "mailto:" + a.replace(/sales@zohocorp.com/g, "vendas@zohocorp.com"))
+                $(this).html(a.replace(/sales@zohocorp.com/g, ""));
+                $(this).attr("href", "mailto:" + a.replace(/sales@zohocorp.com/g, ""))
             }
         })
     }

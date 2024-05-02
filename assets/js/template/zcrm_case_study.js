@@ -727,7 +727,7 @@ function zcs_dataRendering(e) {
     $(".skrGrp_img,.zct_logo").each(function () {
       $(this).attr(
         "data-bg",
-        "https://www.zohowebstatic.com" + $(this).attr("data-bg")
+        "" + $(this).attr("data-bg")
       );
     });
   }

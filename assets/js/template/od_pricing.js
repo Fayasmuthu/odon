@@ -43,16 +43,16 @@ $(document).ready(function() {
     currencyArray = $(".zcurrency-symbol-array").attr("data-currency").split(";");
     var u = ["one", "sign", "crm", "forms", "crmplus", "cliq", "salesiq", "projects", "vault", "creator", "desk", "people", "reports", "docs", "recruit", "contactmanager", "sites", "flow", "salesinbox", "bugtracker", "motivator", "showtime", "meeting", "social", "connect", "assist", "sprints", "wiki", "campaigns", "officeplatform", "pagesense", "backstage", "teamdrive", "survey", "workplace", "orchestly", "workerly", "analytics", "peopleplus", "workdrive"];
     if (getDomain == "www.orchestly.com") {
-        getDomain = "www.zoho.com";
-        productName = "zohoorchestly"
+        getDomain = "";
+        productName = ""
     }
     var i = "zweb";
-    var d = "www.zohowebstatic.com";
+    var d = "";
     if (customvar.productName == "zohobigin" || customvar.productName == "zillum" || customvar.productName == "trainercentral") {
         var i = "oweb";
-        d = "oweb.zohowebstatic.com";
+        d = "";
         if (getDomain.includes(_prewww)) {
-            d = "prewwwo.zohowebstatic.com"
+            d = ""
         }
     }
     var v = "local";
@@ -70,14 +70,14 @@ $(document).ready(function() {
         if (getDomain == _preZ) {
             d = _preZ
         } else {
-            if (getDomain == "www.zoho.com") {
-                d = "www.zoho.com"
+            if (getDomain == "") {
+                d = ""
             } else {
                 if (getDomain == _zcmsZC) {
                     d = _zcmsZC
                 } else {
                     if (customvar.host.indexOf("bigin.com") == 7) {
-                        d = "prewwwo.zohowebstatic.com"
+                        d = ""
                     }
                 }
             }
@@ -208,16 +208,16 @@ $(document).ready(function() {
 
     function o() {
         $(".trynow-plan").each(function() {
-            $(this).attr("href", $(this).attr("href").replace("zoho.com", Zdomain + "." + dcdomainOne))
+            $(this).attr("href", $(this).attr("href").replace("", Zdomain + "." + dcdomainOne))
         });
         $.each(allProductlowerCase, function(w, x) {
             eachAppFromAllApps = x.split(",");
             $.each(eachAppFromAllApps, function(y, z) {
                 if (z != "" && z != null) {
-                    $(".zw-template-inner [href*='" + z + ".zoho.com']").not(".trynow-plan").each(function() {
-                        if ($(this).attr("href").indexOf(z + ".zoho.com") >= 0 && $(this).attr("href").indexOf(".com.au") < 0) {
+                    $(".zw-template-inner [href*='" + z + ".']").not(".trynow-plan").each(function() {
+                        if ($(this).attr("href").indexOf(z + ".") >= 0 && $(this).attr("href").indexOf(".com.au") < 0) {
                             OtherPrdPricingURL = $(this).attr("href");
-                            OtherPrdPricingURLDc = OtherPrdPricingURL.replace("zoho.com", Zdomain + "." + dcdomainOne);
+                            OtherPrdPricingURLDc = OtherPrdPricingURL.replace("", Zdomain + "." + dcdomainOne);
                             $(this).attr("href", OtherPrdPricingURLDc)
                         }
                     })

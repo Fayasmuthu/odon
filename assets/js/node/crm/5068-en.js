@@ -4,7 +4,7 @@ $(document).ready(function() {
         $(".solu-banner-img").show()
     }
     if ($(window).outerWidth() <= 767) {
-        $(".product-icon").attr("src", "https://www.zohowebstatic.com/sites/zweb/images/productlogos/crm-dark.svg")
+        $(".product-icon").attr("src", "")
     }
 });
 $(window).on("load", function() {
@@ -12,7 +12,7 @@ $(window).on("load", function() {
         $(".solu-industri").addClass("im-header")
     }
     if ($(window).outerWidth() <= 767) {
-        $(".product-icon").attr("src", "https://www.zohowebstatic.com/sites/zweb/images/productlogos/crm-dark.svg")
+        $(".product-icon").attr("src", "g")
     }
     setTimeout(function() {
         $(".crm-solution-main").addClass("bg_lazy_loaded")

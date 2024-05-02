@@ -601,7 +601,7 @@ h1 {
     padding-left: 95px;
     box-sizing: border-box;
     margin-bottom: 25px;
-    font: 25px/1.4 var(--zf-primary-regular);
+    font: 16px/1.4 var(--zf-primary-regular);
     position: relative;
     letter-spacing: -0.16px
 }
@@ -636,7 +636,7 @@ h1 {
 }
 
 .vdo-para {
-    font: 30px/1.2 var(--zf-primary-regular);
+    font: 25px/1.2 var(--zf-primary-regular);
     letter-spacing: -0.3px;
     color: #dcdcdc;
     padding: 5px 0 35px
@@ -834,6 +834,12 @@ h1 {
     letter-spacing: -0.55px
 }
 
+@media screen and (min-width:1000px) {
+    .testimonila-para {
+        font: 20px/1.6 var(--zf-primary-semibold);
+        letter-spacing: -0.55px
+    }
+}
 .cstmr-detail {
     font: 30px/38px var(--zf-primary-bold);
     display: inline-block;
@@ -1139,6 +1145,28 @@ h1 {
     font: 25px/1.8 var(--zf-primary-regular);
     padding-bottom: 15px
 }
+
+@media screen and (min-width:1000px) {
+    .testimonial_slider_footer p, .testimonial_slider_footer li {
+        font: 15px/1.8 var(--zf-primary-regular);
+        padding-bottom: 15px
+    }
+
+    .crmbadge-txt, .i18n-en .crmbadge-txt {
+        font: 24px / 1 var(--zf-primary-regular) !important;
+        color: #000;
+        background: #dfdfdf;
+        border-radius: 20px;
+        padding: 7px 12px 6px;
+        margin-bottom: 10px;
+        display: inline-block;
+        letter-spacing: 0;
+    }
+
+    .testimonial_slider_footer ul h2, .testimonial_slider_footer ul h3, .testimonial_slider_footer h2, .testimonial_slider_footer h3 {
+        font: 18px / 1.5 var(--zf-primary-bold);
+    }
+    }
 
 .testimonial_slider_footer ul li {
     position: relative;
@@ -2022,11 +2050,7 @@ div#zpromotion_nl .zpremoclose, div#zpromotion_fr .zpremoclose {
         bottom: -45px
     }
 
-    .testimonila-para {
-        font-size: 35px;
-        letter-spacing: -0.45px;
-        padding: 0 !important
-    }
+
 
     .cstmr-detail {
         padding-right: 25px
@@ -2077,6 +2101,16 @@ div#zpromotion_nl .zpremoclose, div#zpromotion_fr .zpremoclose {
 @media only screen and (max-width:1024px) {
     .i18n-en-in .btm-promo-hdr, .i18n-en-au .btm-promo-hdr, .i18n-en .btm-promo-hdr {
         max-width: 540px
+    }
+
+    .list-item {
+        width: 50%;
+        padding-left: 95px;
+        box-sizing: border-box;
+        margin-bottom: 25px;
+        font: 25px / 1.4 var(--zf-primary-regular);
+        position: relative;
+        letter-spacing: -0.16px;
     }
 
     .zwf_success_alert .zwf_scs_txt {

@@ -155,7 +155,7 @@
     max-width: 900px;
     margin: 0 auto;
     text-align: center;
-    padding: 130px 0 160px;
+    padding: 200px 0 160px;
     width: 90%
 }
 
@@ -1227,7 +1227,7 @@
 
 @media only screen and (max-width:1024px) {
     .zct_bannerInner {
-        padding: 100px 0 120px
+        padding: 200px 0 120px
     }
 
     .cs_detailInner {
