@@ -10,9 +10,14 @@
   <link rel="stylesheet" href="assets/css/template/zcrm_case_study.css">
   <link rel="stylesheet" href="assets/css/product/crm.css">
   <link rel="stylesheet" href="assets/css/eduact.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <!-- hold -->
-
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel='stylesheet prefetch' href='assets/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css'>
+  <link rel='stylesheet prefetch' href='assets/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css'>
+  <link rel='stylesheet prefetch' href='assets/css/font-awesome.min.css'>
 </head>
 
 <body class="custom-cursor zw-page-7508 zw-product-107 zw-product-crm zw-template-zcrm_case_study i18n-en" data-prdname="crm"
@@ -225,150 +230,530 @@
 
           
           <section class="mid-section">
-            <div class="cs_FilterSec fixed_nav">
+            
 
-              <div class="cs_ViewSec">
-                <div class="cs_ViewInner">
-                  <div class="zcs_ErMsg">
-                    <span>No customer stories matching this criteria. Displaying
-                      all stories.</span>
-                  </div>
-                  <div class="fltr_resultSec">
-                    <span class="fltr_lftSec">Filter By:
-                      <span class="fltr_lftInner">Industries, Regions, Business Process and No of
-                        Employees</span></span>
-                    <div class="fltr_rhtSec">
-                      <span class="zcs_close zcs_flrclose" onclick="Flr_lstShow(this), Flr_TagShow(this)">Show
-                        results</span><span class="zcs_flrReset" onclick="flr_Reset()">Reset all</span><span
-                        class="flr_icon_close zcs_close active" onclick="Flr_lstShow(this), Flr_TagShow()"></span>
-                    </div>
-                  </div>
-                  <div class="mbl_tabnavSec">
-                    <span data-tap="1" class="mbl_Industry active">Industry</span><span data-tap="2"
-                      class="mbl_Industry">Region</span><span data-tap="3" class="mbl_Industry">Business
-                      Process</span><span data-tap="4" class="mbl_Industry">No of Employees</span>
-                  </div>
-                  <div class="cs_FlrViewer">
-                    <div class="cs_FilterLst zcs_interSec active">
-                      <span class="cs_FlrH">Industry</span>
-                      <div class="zcs_indusGrp">
-                        <div class="cs_FlrFrame zcs_clmnSec" id="zcs_industry">
-                          <span class="cs_industry"><label class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Automotive" />Automotive<span
-                                class="cs_sprt cs_check"></span></label></span><span class="cs_industry"><label
-                              class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Construction" />Construction<span
-                                class="cs_sprt cs_check"></span></label></span><span class="cs_industry"><label
-                              class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Consulting" />Consulting<span
-                                class="cs_sprt cs_check"></span></label></span><span class="cs_industry"><label
-                              class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Education" />Education<span
-                                class="cs_sprt cs_check"></span></label></span><span class="cs_industry"><label
-                              class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Energy___Utilities" />Energy
-                              &amp; Utilities<span class="cs_sprt cs_check"></span></label></span><span
-                            class="cs_industry"><label class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Entertainment" />Entertainment<span
-                                class="cs_sprt cs_check"></span></label></span><span class="cs_industry"><label
-                              class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Financial_Services" />Financial
-                              Services<span class="cs_sprt cs_check"></span></label></span><span
-                            class="cs_industry"><label class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Food___Beverages" />Food &amp;
-                              Beverages<span class="cs_sprt cs_check"></span></label></span><span
-                            class="cs_industry"><label class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Healthcare___Wellness" />Healthcare
-                              &amp; Wellness<span class="cs_sprt cs_check"></span></label></span><span
-                            class="cs_industry"><label class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="IT_Services" />IT Services<span
-                                class="cs_sprt cs_check"></span></label></span>
-                        </div>
-                        <div class="cs_FlrFrame zcs_clmnSec" id="zcs_industry1">
-                          <span class="cs_industry"><label class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Insurance" />Insurance<span
-                                class="cs_sprt cs_check"></span></label></span><span class="cs_industry"><label
-                              class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Internet___Technology" />Internet
-                              &amp; Technology<span class="cs_sprt cs_check"></span></label></span><span
-                            class="cs_industry"><label class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Manufacturing" />Manufacturing<span
-                                class="cs_sprt cs_check"></span></label></span><span class="cs_industry"><label
-                              class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Marketing___Advertising" />Marketing
-                              &amp; Advertising<span class="cs_sprt cs_check"></span></label></span><span
-                            class="cs_industry"><label class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Media___Communication" />Media
-                              &amp; Communication<span class="cs_sprt cs_check"></span></label></span><span
-                            class="cs_industry"><label class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Non-profit" />Non-profit<span
-                                class="cs_sprt cs_check"></span></label></span><span class="cs_industry"><label
-                              class="cs_lable"><input type="checkbox" name="industry" data-industry="Real_Estate" />Real
-                              Estate<span class="cs_sprt cs_check"></span></label></span><span
-                            class="cs_industry"><label class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Retail___Wholesale" />Retail
-                              &amp; Wholesale<span class="cs_sprt cs_check"></span></label></span><span
-                            class="cs_industry"><label class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Transportation___Logistics" />Transportation
-                              &amp; Logistics<span class="cs_sprt cs_check"></span></label></span><span
-                            class="cs_industry"><label class="cs_lable"><input type="checkbox" name="industry"
-                                data-industry="Travel___Tourism" />Travel &amp;
-                              Tourism<span class="cs_sprt cs_check"></span></label></span>
+dsdasda
+            <section class="cs_detailSec">
+              <div class="cs_detailInner">
+                <div class="zcs_ErMsg">
+                  <span>No customer stories matching this criteria. Displaying all stories.</span>
+                </div>
+
+                <div class="container">
+                  <div class="row">
+                    <div id="owl-example" class="owl-carousel">
+                      <div>
+                        <div class="cs_lstSec bg_lazy_loaded">
+                          <ul class="caro_detailLst">
+                            <li class="cs_lstBx flr_show India Case study">
+                              <div class="cs_lstInner">
+                                <div class="cs_testiSec">
+                                  <span class="zcp_lazy zct_logo lyteLazyEntered lyteLazyLoaded" style="
+                                      width: 125.5px;
+                                      height: 30px;
+                                      background-image: url('assets/images/noho/case/zcx-brigade-plus-2x.png');
+                                    " data-bg="assets/images/noho/case/zcx-brigade-plus-2x.png"
+                                    data-lazyload-stage="loaded"></span>
+                                  <div class="zct_Desc_grp">
+                                    <p>
+                                      Brigade Plus transforms sales management and
+                                      customer journeys with Zoho CRM
+                                    </p>
+                                  </div>
+                                  <div>
+                                    <a class="zcs_lnk" href="" target="_blank"
+                                      rel="noopener">Read More<span class="arrow"></span></a>
+                                  </div>
+                                  <div class="cs_skrGrp">
+                                    <span class="skrGrp_lft zcs_spkrYes"><span
+                                        class="zcp_lazy skrGrp_img lyteLazyEntered lyteLazyLoaded" style="
+                                          width: 60px;
+                                          height: 60px;
+                                          background-image: url('assets/images/noho/case/zct-brigade-plus-ponappa-pm-2x.png');
+                                        " data-bg="/sites/zweb/images/crm/casestudy/zct-brigade-plus-ponappa-pm-2x.png"
+                                        data-lazyload-stage="loaded"></span></span><span class="skrGrp_rht"><span
+                                        class="skrGrp_name">Ponappa PM</span><span class="skrGrp_desig">Head, Brigade
+                                        Plus</span></span>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                          <ul>
                         </div>
                       </div>
-                    </div>
-                    <div class="cs_FilterLst">
-                      <span class="cs_FlrH">Regions</span>
-                      <div class="cs_FlrFrame" id="zcs_country">
-                        <span class="cs_country"><label class="cs_lable"><input type="checkbox" name="country"
-                              data-country="ANZ" />ANZ<span class="cs_sprt cs_check"></span></label></span><span
-                          class="cs_country"><label class="cs_lable"><input type="checkbox" name="country"
-                              data-country="APAC" />APAC<span class="cs_sprt cs_check"></span></label></span><span
-                          class="cs_country"><label class="cs_lable"><input type="checkbox" name="country"
-                              data-country="Canada" />Canada<span class="cs_sprt cs_check"></span></label></span><span
-                          class="cs_country"><label class="cs_lable"><input type="checkbox" name="country"
-                              data-country="EMEA" />EMEA<span class="cs_sprt cs_check"></span></label></span><span
-                          class="cs_country"><label class="cs_lable"><input type="checkbox" name="country"
-                              data-country="India" />India<span class="cs_sprt cs_check"></span></label></span><span
-                          class="cs_country"><label class="cs_lable"><input type="checkbox" name="country"
-                              data-country="USA" />USA<span class="cs_sprt cs_check"></span></label></span>
+
+                      <div>
+                        <ul class="caro_detailLst">
+                          <li class="cs_lstBx flr_show Singapore Case study">
+                            <div class="cs_lstInner">
+                              <div class="cs_testiSec">
+                                <span class="zcp_lazy zct_logo lyteLazyEntered lyteLazyLoaded" style="
+                                    width: 60px;
+                                    height: 31px;
+                                    background-image: url('assets/images/noho/case/zcx-agoda-2x.png');
+                                  " data-bg="assets/images/noho/case/zcx-agoda-2x.png"
+                                  data-lazyload-stage="loaded"></span>
+                                <div class="zct_Desc_grp">
+                                  <p>
+                                    Zoho CRM Plus Helps Agoda’s Strategic Partnerships
+                                    Team Manage Workflows And Communicate With
+                                    Partners
+                                  </p>
+                                </div>
+                                <div>
+                                  <a class="zcs_lnk" href="" target="_blank" rel="noopener">Read
+                                    More<span class="arrow"></span></a>
+                                </div>
+                                <div class="cs_skrGrp">
+                                  <span class="skrGrp_lft zcs_spkrNo"></span><span class="skrGrp_rht"><span
+                                      class="skrGrp_name">Pierre Honne</span><span class="skrGrp_desig">Director -
+                                      Partnerships Innovation, Strategic
+                                      Partnerships of Agoda</span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
                       </div>
-                    </div>
-                    <div class="cs_FilterLst">
-                      <span class="cs_FlrH">Business Process</span>
-                      <div class="cs_FlrFrame" id="zcs_business">
-                        <span class="cs_business"><label class="cs_lable"><input type="checkbox" name="business"
-                              data-business="B2B" />B2B<span class="cs_sprt cs_check"></span></label></span><span
-                          class="cs_business"><label class="cs_lable"><input type="checkbox" name="business"
-                              data-business="B2C" />B2C<span class="cs_sprt cs_check"></span></label></span>
+
+                      <div>
+                        <ul class="caro_detailLst">
+                          <li class="cs_lstBx flr_show Australia Case study">
+                            <div class="cs_lstInner">
+                              <div class="cs_testiSec">
+                                <span class="zcp_lazy zct_logo lyteLazyEntered lyteLazyLoaded" style="
+                                    width: 64px;
+                                    height: 31.5px;
+                                    background-image: url('assets/images/noho/case/zcx-tassal-2x.png');
+                                  " data-bg="assets/images/noho/case/zcx-tassal-2x.png"
+                                  data-lazyload-stage="loaded"></span>
+                                <div class="zct_Desc_grp">
+                                  <p>
+                                    Australia's Largest Producer And Distributor Of
+                                    Tasmanian-Grown Atlantic Salmon Runs On Zoho CRM
+                                  </p>
+                                </div>
+                                <div>
+                                  <a class="zcs_lnk"
+                                    href=""
+                                    target="_blank" rel="noopener">Read More<span class="arrow"></span></a>
+                                </div>
+                                <div class="cs_skrGrp">
+                                  <span class="skrGrp_lft zcs_spkrYes"><span
+                                      class="zcp_lazy skrGrp_img lyteLazyEntered lyteLazyLoaded" style="
+                                        width: 60px;
+                                        height: 60px;
+                                        background-image: url('assets/images/noho/case/sam-boyes.png');
+                                      " data-bg="assets/images/noho/case/sam-boyes.png"
+                                      data-lazyload-stage="loaded"></span></span><span class="skrGrp_rht"><span
+                                      class="skrGrp_name">Sam Boyes</span><span class="skrGrp_desig">Senior Manager,
+                                      Tassal</span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
                       </div>
-                    </div>
-                    <div class="cs_FilterLst">
-                      <span class="cs_FlrH">No of Employees</span>
-                      <div class="cs_FlrFrame" id="zcs_users">
-                        <span class="cs_users"><label class="cs_lable"><input type="checkbox" name="users"
-                              data-users="50_and_below" />50 and below<span
-                              class="cs_sprt cs_check"></span></label></span><span class="cs_users"><label
-                            class="cs_lable"><input type="checkbox" name="users" data-users="51-200" />51-200<span
-                              class="cs_sprt cs_check"></span></label></span><span class="cs_users"><label
-                            class="cs_lable"><input type="checkbox" name="users" data-users="201-500" />201-500<span
-                              class="cs_sprt cs_check"></span></label></span><span class="cs_users"><label
-                            class="cs_lable"><input type="checkbox" name="users" data-users="Above_500" />Above 500<span
-                              class="cs_sprt cs_check"></span></label></span>
+
+                      <div>
+                        <ul class="caro_detailLst">
+                          <li class="cs_lstBx flr_show Thailand Videos">
+                            <div class="cs_lstInner">
+                              <div class="cs_testiSec">
+                                <span class="zcp_lazy zct_logo lyteLazyEntered lyteLazyLoaded" style="
+                                    width: 117px;
+                                    height: 40px;
+                                    background-image: url('assets/images/noho/case/zcx-minor-2x.png');
+                                  " data-bg="assets/images/noho/case/zcx-minor-2x.png"
+                                  data-lazyload-stage="loaded"></span>
+                                <div class="zct_Desc_grp">
+                                  <p>
+                                    International hotel group Minor Hotels runs global
+                                    sales on Zoho CRM
+                                  </p>
+                                </div>
+                                <div>
+                                  <a class="zcs_lnk" href="" target="_blank"
+                                    rel="noopener">Read More<span class="arrow"></span></a>
+                                </div>
+                              </div>
+                              <div class="cs_videoSec vimvideo"
+                                data-video="">
+                                <div class="vid_spkrGrp">
+                                  <span class="vid_spkrname">Olga Kovshanova</span><span class="vid_spkrdesig">SR. Director
+                                    Loyalty &amp; Partnership and B2B
+                                    Digital Sales, Minor Hotels</span>
+                                </div>
+                                <img class="zcp_lazy vid_thumb lyteLazyEntered lyteLazyLoaded"
+                                  data-src="assets/images/noho/zct-video-selectra-listview.jpg"
+                                  alt="Olga Kovshanova | Zoho CRM Customer" width="350px" height="220px"
+                                  data-lazyload-stage="loaded"
+                                  src="assets/images/noho/zct-video-selectra-listview.jpg" />
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <ul class="caro_detailLst">
+                          <li class="cs_lstBx flr_show United States Case study">
+                            <div class="cs_lstInner">
+                              <div class="cs_testiSec">
+                                <span class="zcp_lazy zct_logo lyteLazyEntered lyteLazyLoaded" style="
+                                    width: 118px;
+                                    height: 32px;
+                                    background-image: url('assets/images/noho/case/zcx-mistras-group-2x.png');
+                                  " data-bg="assets/images/noho/case/zcx-mistras-group-2x.png"
+                                  data-lazyload-stage="loaded"></span>
+                                <div class="zct_Desc_grp">
+                                  <p>
+                                    Mistras Group Uses Zoho CRM For Effective Account
+                                    Management And To Increase Customer Acquisition
+                                  </p>
+                                </div>
+                                <div>
+                                  <a class="zcs_lnk" href="" target="_blank"
+                                    rel="noopener">Read More<span class="arrow"></span></a>
+                                </div>
+                                <div class="cs_skrGrp">
+                                  <span class="skrGrp_lft zcs_spkrYes"><span
+                                      class="zcp_lazy skrGrp_img lyteLazyEntered lyteLazyLoaded" style="
+                                        width: 60px;
+                                        height: 60px;
+                                        background-image: url('assets/images/noho/case/zct-brigade-plus-ponappa-pm-2x.png');
+                                      " data-bg="assets/images/noho/case/zct-brigade-plus-ponappa-pm-2x.png"
+                                      data-lazyload-stage="loaded"></span></span><span class="skrGrp_rht"><span
+                                      class="skrGrp_name">Lane Pinkston</span><span class="skrGrp_desig">Sales Operation
+                                      Manager, Mistras Group</span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <ul class="caro_detailLst">
+                          <li class="cs_lstBx flr_show France Videos">
+                            <div class="cs_lstInner">
+                              <div class="cs_testiSec">
+                                <span class="zcp_lazy zct_logo lyteLazyEntered lyteLazyLoaded" style="
+                                    width: 115px;
+                                    height: 21px;
+                                    background-image: url('assets/images/noho/case/zcx-selectra-2x.png');
+                                  " data-bg="assets/images/noho/case/zcx-selectra-2x.png"
+                                  data-lazyload-stage="loaded"></span>
+                                <div class="zct_Desc_grp">
+                                  <p>
+                                    French Energy Company Grows Globally After
+                                    Discovering Zoho CRM
+                                  </p>
+                                </div>
+                                <div>
+                                  <a class="zcs_lnk" href="" target="_blank" rel="noopener">Read
+                                    More<span class="arrow"></span></a>
+                                </div>
+                              </div>
+                              <div class="cs_videoSec vimvideo"
+                                data-video="">
+                                <div class="vid_spkrGrp">
+                                  <span class="vid_spkrname">Aurian De Maupeou</span><span class="vid_spkrdesig">Founder,
+                                    Selectra</span>
+                                </div>
+                                <img class="zcp_lazy vid_thumb lyteLazyEntered lyteLazyLoaded"
+                                  data-src="/sites/zweb/images/crm/casestudy/zct-video-selectra-listview.jpg"
+                                  alt="Aurian De Maupeou | Zoho CRM Customer" width="350px" height="220px"
+                                  data-lazyload-stage="loaded"
+                                  src="assets/images/noho/case/zct-video-selectra-listview.jpg" />
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <ul class="caro_detailLst">
+                          <li class="cs_lstBx flr_show Canada Case study">
+                            <div class="cs_lstInner">
+                              <div class="cs_testiSec">
+                                <span class="zcp_lazy zct_logo lyteLazyEntered lyteLazyLoaded" style="
+                                    width: 130px;
+                                    height: 34.5px;
+                                    background-image: url('assets/images/noho/case/zcx-cimco-refrigeration-2x.png');
+                                  " data-bg="assets/images/noho/case/zcx-cimco-refrigeration-2x.png"
+                                  data-lazyload-stage="loaded"></span>
+                                <div class="zct_Desc_grp">
+                                  <p>
+                                    Largest industrial refrigeration contractor in
+                                    North America sees a 20% boost in sales upon
+                                    employing Zoho CRM
+                                  </p>
+                                </div>
+                                <div>
+                                  <a class="zcs_lnk" href="/crm/customers/cimco.html" target="_blank" rel="noopener">Read
+                                    More<span class="arrow"></span></a>
+                                </div>
+                                <div class="cs_skrGrp">
+                                  <span class="skrGrp_lft zcs_spkrYes"><span
+                                      class="zcp_lazy skrGrp_img lyteLazyEntered lyteLazyLoaded" style="
+                                        width: 60px;
+                                        height: 60px;
+                                        background-image: url('/sites/zweb/images/crm/casestudy/zct-cimco-refrigeration-david-fauser-2x.png');
+                                      "
+                                      data-bg="/sites/zweb/images/crm/casestudy/zct-cimco-refrigeration-david-fauser-2x.png"
+                                      data-lazyload-stage="loaded"></span></span><span class="skrGrp_rht"><span
+                                      class="skrGrp_name">David Fauser</span><span class="skrGrp_desig">Director of Sales,
+                                      CIMCO Refrigeration</span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <ul class="caro_detailLst">
+                          <li class="cs_lstBx flr_show Canada Videos">
+                            <div class="cs_lstInner">
+                              <div class="cs_testiSec">
+                                <span class="zcp_lazy zct_logo lyteLazyEntered lyteLazyLoaded" style="
+                                    width: 79.5px;
+                                    height: 43.5px;
+                                    background-image: url('assets/images/noho/case/zcx-wessuc-inc-2x.png');
+                                  " data-bg="assets/images/noho/case/zcx-wessuc-inc-2x.png"
+                                  data-lazyload-stage="loaded"></span>
+                                <div class="zct_Desc_grp">
+                                  <p>
+                                    Wessuc's Acute Conversion From Their Legacy
+                                    Software To Zoho CRM Signaled A Risk, But Turned
+                                    Out To Be The Best Decision They Made
+                                  </p>
+                                </div>
+                                <div>
+                                  <a class="zcs_lnk" href="" target="_blank" rel="noopener">Read
+                                    More<span class="arrow"></span></a>
+                                </div>
+                              </div>
+                              <div class="cs_videoSec vimvideo"
+                                data-video="">
+                                <div class="vid_spkrGrp">
+                                  <span class="vid_spkrname">Phil Cron</span><span class="vid_spkrdesig">Director of Sales,
+                                    Wessuc Inc</span>
+                                </div>
+                                <img class="zcp_lazy vid_thumb lyteLazyEntered lyteLazyLoaded"
+                                  data-src="assets/images/noho/case/zct-video-wessus-listview.jpg"
+                                  alt="Phil Cron | Zoho CRM Customer" width="350px" height="220px"
+                                  data-lazyload-stage="loaded"
+                                  src="assets/images/noho/case/zct-video-wessus-listview.jpg" />
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <ul class="caro_detailLst">
+                          <li class="cs_lstBx flr_show India Case study">
+                            <div class="cs_lstInner">
+                              <div class="cs_testiSec">
+                                <span class="zcp_lazy zct_logo lyteLazyEntered lyteLazyLoaded" style="
+                                    width: 130.5px;
+                                    height: 10.5px;
+                                    background-image: url('assets/images/noho/case/zcx-agappe-2x.png');
+                                  " data-bg="assets/images/noho/case/zcx-agappe-2x.png"
+                                  data-lazyload-stage="loaded"></span>
+                                <div class="zct_Desc_grp">
+                                  <p>
+                                    Agappe Diagnostics Achieves Complete Digital
+                                    Business Transformation With Zoho CRM
+                                  </p>
+                                </div>
+                                <div>
+                                  <a class="zcs_lnk" href="" target="_blank" rel="noopener">Read
+                                    More<span class="arrow"></span></a>
+                                </div>
+                                <div class="cs_skrGrp">
+                                  <span class="skrGrp_lft zcs_spkrNo"></span><span class="skrGrp_rht"><span
+                                      class="skrGrp_name">Thomas John</span><span class="skrGrp_desig">Managing Director,
+                                      Agappe</span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <ul class="caro_detailLst">
+                          <li class="cs_lstBx flr_show United States Videos">
+                            <div class="cs_lstInner">
+                              <div class="cs_testiSec">
+                                <span class="zcp_lazy zct_logo lyteLazyEntered lyteLazyLoaded" style="
+                                    width: 99px;
+                                    height: 39px;
+                                    background-image: url('assets/images/noho/case/zcx-raintree.png');
+                                  " data-bg="assets/images/noho/case/zcx-raintree.png"
+                                  data-lazyload-stage="loaded"></span>
+                                <div class="zct_Desc_grp">
+                                  <p>
+                                    RainTree Develops Global Franchises With Help Of
+                                    Zoho CRM
+                                  </p>
+                                </div>
+                                <div>
+                                  <a class="zcs_lnk" href=""
+                                    target="_blank" rel="noopener">Watch Video<span class="arrow"></span></a>
+                                </div>
+                              </div>
+                              <div class="cs_videoSec vimvideo"
+                                data-video="">
+                                <div class="vid_spkrGrp">
+                                  <span class="vid_spkrname">Brent Dowling</span><span class="vid_spkrdesig">CEO,
+                                    RainTree</span>
+                                </div>
+                                <img class="zcp_lazy vid_thumb lyteLazyEntered lyteLazyLoaded"
+                                  data-src=""
+                                  alt="Brent Dowling | Zoho CRM Customer" width="350px" height="220px"
+                                  data-lazyload-stage="loaded"
+                                  src="assets/images/noho/case/zct-video-selectra-listview.jpg" />
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <ul class="caro_detailLst">
+                          <li class="cs_lstBx flr_show Canada Case study">
+                            <div class="cs_lstInner">
+                              <div class="cs_testiSec">
+                                <span class="zcp_lazy zct_logo lyteLazyEntered lyteLazyLoaded" style="
+                                    width: 87px;
+                                    height: 35px;
+                                    background-image: url('assets/images/noho/case/zcx_sharc_2x.png');
+                                  " data-bg="assets/images/noho/case/zcx_sharc_2x.png"
+                                  data-lazyload-stage="loaded"></span>
+                                <div class="zct_Desc_grp">
+                                  <p>
+                                    Wastewater energy company achieves digital
+                                    transformation and a boost in sales by leveraging
+                                    Zoho CRM
+                                  </p>
+                                </div>
+                                <div>
+                                  <a class="zcs_lnk" href="" target="_blank"
+                                    rel="noopener">Read More<span class="arrow"></span></a>
+                                </div>
+                                <div class="cs_skrGrp">
+                                  <span class="skrGrp_lft zcs_spkrYes"><span
+                                      class="zcp_lazy skrGrp_img lyteLazyEntered lyteLazyLoaded" style="
+                                        width: 56.6667px;
+                                        height: 56.6667px;
+                                        background-image: url('assets/images/noho/case/zct_mike_tanyi.png');
+                                      " data-bg="assets/images/noho/case/zct_mike_tanyi.png"
+                                      data-lazyload-stage="loaded"></span></span><span class="skrGrp_rht"><span
+                                      class="skrGrp_name">Mike Tanyi</span><span class="skrGrp_desig">Director of IT and
+                                      Marketing, SHARC
+                                      Energy</span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <ul class="caro_detailLst">
+                          <!-- <li class="cs_lstBx flr_show India Videos">
+                      <div class="cs_lstInner">
+                        <div class="cs_testiSec">
+                          <span class="zcp_lazy zct_logo lyteLazyEntered lyteLazyLoaded" style="
+                              width: 134px;
+                              height: 25px;
+                              background-image: url('/sites/zweb/images/crm/casestudy/zcx-centilytics.png');
+                            " data-bg="/sites/zweb/images/crm/casestudy/zcx-centilytics.png"
+                            data-lazyload-stage="loaded"></span>
+                          <div class="zct_Desc_grp">
+                            <p>
+                              Zoho CRM helps intelligent cloud management
+                              platform offer better cloud visibility
+                              infrastructure to customers
+                            </p>
+                          </div>
+                          <div>
+                            <a class="zcs_lnk" href="https://player.vimeo.com/video/790833955" target="_blank"
+                              rel="noopener">Watch video<span class="arrow"></span></a>
+                          </div>
+                        </div>
+                        <div class="cs_videoSec vimvideo" data-video="https://player.vimeo.com/video/790833955">
+                          <div class="vid_spkrGrp">
+                            <span class="vid_spkrname">Faisal Saleh</span><span class="vid_spkrdesig">Team Lead -
+                              Digital Transformation,
+                              Centilytics</span>
+                          </div>
+                          <img class="zcp_lazy vid_thumb lyteLazyEntered lyteLazyLoaded"
+                            data-src="/sites/zweb/images/crm/casestudy/zct-video-centilytics-listview.jpg"
+                            alt="Faisal Saleh | Zoho CRM Customer" width="350px" height="220px"
+                            data-lazyload-stage="loaded"
+                            src="/sites/zweb/images/crm/casestudy/zct-video-centilytics-listview.jpg" />
+                        </div>
+                      </div>
+                    </li> -->
+                        </ul>
+                      </div>
+
+                      <div>
+                        <ul class="caro_detailLst">
+                          <li class="cs_lstBx flr_show Thailand Videos">
+                            <div class="cs_lstInner">
+                              <div class="cs_testiSec">
+                                <span class="zcp_lazy zct_logo lyteLazyEntered lyteLazyLoaded" style="
+                                    width: 117px;
+                                    height: 40px;
+                                    background-image: url('assets/images/noho/case/zcx-minor-2x.png');
+                                  " data-bg="assets/images/noho/case/zcx-minor-2x.png"
+                                  data-lazyload-stage="loaded"></span>
+                                <div class="zct_Desc_grp">
+                                  <p>
+                                    International hotel group Minor Hotels runs global
+                                    sales on Zoho CRM
+                                  </p>
+                                </div>
+                                <div>
+                                  <a class="zcs_lnk" href="" target="_blank"
+                                    rel="noopener">Read More<span class="arrow"></span></a>
+                                </div>
+                              </div>
+                              <div class="cs_videoSec vimvideo"
+                                data-video="">
+                                <div class="vid_spkrGrp">
+                                  <span class="vid_spkrname">Olga Kovshanova</span><span class="vid_spkrdesig">SR. Director
+                                    Loyalty &amp; Partnership and B2B
+                                    Digital Sales, Minor Hotels</span>
+                                </div>
+                                <img class="zcp_lazy vid_thumb lyteLazyEntered lyteLazyLoaded"
+                                  data-src="assets/images/noho/zct-video-selectra-listview.jpg"
+                                  alt="Olga Kovshanova | Zoho CRM Customer" width="350px" height="220px"
+                                  data-lazyload-stage="loaded"
+                                  src="assets/images/noho/zct-video-selectra-listview.jpg" />
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-
+            </section>
 
             <section class="cs_detailSec">
               <div class="cs_detailInner">
                 <div class="zcs_ErMsg">
-                  <span>No customer stories matching this criteria. Displaying all
-                    stories.</span>
+                  <span>No customer stories matching this criteria. Displaying all stories.</span>
                 </div>
+
                 <div class="cs_lstSec bg_lazy_loaded">
                   <ul class="cs_detailLst">
                     <li class="cs_lstBx flr_show India Case study">
@@ -897,6 +1282,7 @@
                     onclick="pg_Nxt('next', this);" data-attr="next">Next</span>
                 </div>
               </div>
+
               <div class="cs_storySec">
                 <div class="cs_storyInner">
                   <h4>Share your experience with us</h4>
@@ -1098,8 +1484,57 @@
   <script src="assets/js/template/zcrm_case_study.js"></script>
   <script src="assets/js/product/crm.js"></script>
   <script src="assets/js/eduact.js"></script>
-
+  <script>
+    
+    $(document).ready(function() {
  
+  $("#owl-example").owlCarousel({
+      itemsDesktop : [1499,4],
+      itemsDesktopSmall : [1199,3],
+      itemsTablet : [899,2],
+      itemsMobile : [599,1],
+      navigation : true,
+      navigationText : ['<span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-chevron-circle-left fa-stack-1x fa-inverse"></i></span>','<span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-chevron-circle-right fa-stack-1x fa-inverse"></i></span>'],
+  });
+  
+});
+    </script>
+
+    <style>
+      .owl-buttons {
+  display: none;
+}
+.owl-carousel:hover .owl-buttons {
+  display: block;
+}
+
+.owl-item {
+  text-align: center;
+  margin: 10px;
+  width: 500px !important;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+  background: transparent;
+  color: #869791;
+  font-size: 40px;
+  line-height: 300px;
+  margin: 0;
+  padding: 0 60px;
+  position: absolute;
+  top: 0;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: 0;
+  padding-left: 20px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: 0;
+  padding-right: 20px;
+}
+    </style>
+ <script src='https://code.jquery.com/jquery-1.12.4.min.js'></script>
+ <script src='assets/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js'></script>
 </body>
 
 </html>

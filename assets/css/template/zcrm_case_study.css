@@ -981,6 +981,13 @@
     float: left
 }
 
+.caro_detailLst {
+    position: relative;
+    list-style-type: none;
+    width: 100%;
+    float: left
+}
+
 .cs_lstBx {
     padding: 15px 0
 }
@@ -1788,6 +1795,10 @@
         width: 50%
     }
 
+    .caro_detailLst {
+        width: 100%
+    }
+
     .cx-HeaderInner {
         text-align: center;
         padding: 140px 0 70px
@@ -1999,6 +2010,12 @@
         margin: 0 auto
     }
 
+    .caro_detailLst {
+        width: 400px;
+        float: none;
+        margin: 0 auto
+    }
+
     .zct_main h1 {
         font-size: 38px
     }
@@ -2163,6 +2180,10 @@
         width: 100%
     }
 
+    .caro_detailLst {
+        width: 100%
+    }
+
     .cs_pagination {
         padding-bottom: 25px
     }
@@ -2228,6 +2249,11 @@
     .cs_detailLst {
         width: 100%
     }
+
+    .caro_detailLst {
+        width: 100%
+    }
+
 
     .cs_detailInner {
         padding: 50px 0

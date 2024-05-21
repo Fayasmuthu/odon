@@ -16,9 +16,9 @@ img {
 .zcrmhm-bansec {
     margin: -71px auto 0;
     padding: 140px 30px 291px;
-    background-image: -moz-linear-gradient(145deg, #0067ff 0%, #005ce3 24%, #0050c6 100%);
-    background-image: -webkit-linear-gradient(145deg, #0067ff 0%, #005ce3 24%, #0050c6 100%);
-    background-image: -ms-linear-gradient(145deg, #0067ff 0%, #005ce3 24%, #0050c6 100%);
+    /* background-image: -moz-linear-gradient(145deg, #6666CB 0%, #005ce3 24%, #0050c6 100%); */
+    background-image: -webkit-linear-gradient(145deg, #5353b8 0%, #5353b8 24%, #5353b8 100%);
+    /* background-image: -ms-linear-gradient(145deg, #6666CB 0%, #005ce3 24%, #0050c6 100%); */
     color: #fff;
     text-align: center;
     position: relative
@@ -91,10 +91,10 @@ h1 {
 }
 
 .signup-box input[type='email'], .signup-box input[type='number'], .signup-box input[type='password'], .signup-box input[type='search'], .signup-box input[type='tel'], .signup-box input[type='text'], .signup-box input[type='url'], .signup-box textarea, .signup-box .za-country-container .globalcountrycode-signup, .signup-box .za-state-container .za-globalstate-signup {
-    background: #0050c6;
-    color: #fff;
-    border: 2px solid #1f6bdc;
-    border-radius: 10px
+    background: #3c3c99;
+    color: #ffffff;
+    border: 2px solid #5a5acb;
+    border-radius: 10px;
 }
 
 .signup-box .za-country-container.za-country-container-arrow::after, .signup-box .za-state-container::after {
@@ -111,17 +111,20 @@ h1 {
 
 .ban-para {
     font: 18px/1.5 var(--zf-primary-regular);
-    color: #e4e4e4;
+    color: #efefef;
     padding: 15px 0 20px
 }
 
 
 .zcrm-cust-mainsec {
-    background: #262626
+    background: no-repeat;
+    background-position: center bottom;
+    background-size: auto 600px;
+    background-color: #000066;
 }
 
 .zcrm-cust-mainsec.bg_lazy_loaded {
-    background: #262626 url(//www.zohowebstatic.com/sites/zweb/images/crm/zcrm-multichanel-bg.svg) no-repeat;
+    background-image: #000066 url(web/images/noho/index/zcrm-multichanel-bg1.svg) no-repeat;
     background-position: center bottom;
     background-size: auto 600px
 }
@@ -317,7 +320,7 @@ h1 {
 
 .para {
     padding-top: 15px;
-    font: 22px/1.6 var(--zf-primary-regular)
+    font: 18px/1.6 var(--zf-primary-regular)
 }
 
 @media only screen and (max-width:992px) {
@@ -326,22 +329,16 @@ h1 {
     }
 }
 
-@media only screen and (max-width:512px) {
-    .para {
-        font: 38px/1.6 var(--zf-primary-regular) !important;
-    }
-}
-
 .learnmore {
     padding-top: 15px;
     display: inline-block;
-    color: #0067ff;
+    color: #006421;
     text-decoration: none;
     font: 18px/1.2 var(--zf-secondary-medium)
 }
 
 .learnmore .lnr-arow:last-child, .sldr-arrow span {
-    background: #0067ff;
+    background: #6666CB;
     width: 15px;
     height: 2px;
     position: relative;
@@ -356,7 +353,7 @@ h1 {
     position: absolute;
     width: 6px;
     height: 6px;
-    border: 2px solid #0067ff;
+    border: 2px solid #6666CB;
     transform: rotate(-45deg);
     border-left: 0;
     border-top: 0;
@@ -419,8 +416,8 @@ h1 {
 }
 
 .prdcty-sec {
-    background: #f4f0ea;
-    padding: 130px 30px 0
+    background: #C1FDC1;
+    padding: 130px 0px 0
 }
 
 .prdcty-inrsec {
@@ -453,11 +450,12 @@ h1 {
 }
 
 .prdcty-wrkflw {
-    width: 95%;
-    margin: 10px 0px 47px 0;
+    width: 80%;
+    margin: 0 -85px 22px 0;
     position: relative;
-    z-index: 1;
+    z-index: 1
 }
+
 .wrkflw-img {
     position: absolute;
     left: 30%;
@@ -486,7 +484,7 @@ h1 {
 }
 
 .bluebg-sec.bg_lazy_loaded {
-    background: #0123d1 url(//www.zohowebstatic.com/sites/zweb/images/crm/crm-relationship-grid-bg.svg) no-repeat;
+    background: #562200 url(//www.zohowebstatic.com/sites/zweb/images/crm/crm-relationship-grid-bg.svg) no-repeat;
     background-position: center bottom;
     background-size: auto 540px
 }
@@ -498,7 +496,7 @@ h1 {
     color: #fff;
     overflow: hidden;
     background-image: -moz-linear-gradient(90deg, #0055f1 25%, #0022d0 100%);
-    background-image: -webkit-linear-gradient(90deg, #0055f1 25%, #0022d0 100%);
+    background-image: -webkit-linear-gradient(90deg, #077f2e 25%, #004d18 100%);
     background-image: -ms-linear-gradient(90deg, #0055f1 25%, #0022d0 100%);
     left: 0;
     top: 0;
@@ -516,7 +514,7 @@ h1 {
 }
 
 .bluegrad-sec.bg_lazy_loaded::after {
-    background: url("//www.zohowebstatic.com/sites/zweb/images/crm/zcrm-analytics_bg.svg") no-repeat;
+    background-image: url("../images/noho/index/zcrm-analytics_bg1.svg") no-repeat;
     background-position: center bottom;
     background-size: cover
 }
@@ -577,7 +575,7 @@ h1 {
 }
 
 .gray-bgsec {
-    background: #e8f1fa;
+    background: #C2C2FF;
     margin: 0 auto -80px
 }
 
@@ -586,12 +584,13 @@ h1 {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    padding: 125px 30px 60px;
-    box-sizing: border-box
+    padding: 105px 30px 60px;
+    box-sizing: border-box;
+    flex-direction: column;
 }
 
 .ftr-lists {
-    width: calc(100% - 290px);
+    width: calc(100% - 20px);
     display: flex;
     flex-wrap: wrap
 }
@@ -601,7 +600,7 @@ h1 {
     padding-left: 95px;
     box-sizing: border-box;
     margin-bottom: 25px;
-    font: 16px/1.4 var(--zf-primary-regular);
+    font: 14px/1.4 var(--zf-primary-regular);
     position: relative;
     letter-spacing: -0.16px
 }
@@ -618,14 +617,13 @@ h1 {
 
 .crmvideo-sec {
     border-radius: 40px;
-    background-color: #262626;
+    background-color: #000066;
     padding: 60px 70px 0;
     box-sizing: border-box;
     max-width: 1400px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    width: 95%
+    width: 95%;
+    text-align: center;
 }
 
 .rain-tree {
@@ -636,7 +634,7 @@ h1 {
 }
 
 .vdo-para {
-    font: 25px/1.2 var(--zf-primary-regular);
+    font: 30px/1.2 var(--zf-primary-regular);
     letter-spacing: -0.3px;
     color: #dcdcdc;
     padding: 5px 0 35px
@@ -644,7 +642,6 @@ h1 {
 
 .vdo-cntnt-sec {
     position: relative;
-    max-width: 500px;
     padding: 0 0 40px 35px
 }
 
@@ -722,7 +719,7 @@ h1 {
 }
 
 .testimonial-section {
-    padding: 130px 30px 0;
+    padding: 130px 30px 130px;
     text-align: center
 }
 
@@ -736,7 +733,7 @@ h1 {
     width: 440px;
     display: inline-block;
     vertical-align: top;
-    background: #0067ff;
+    background: #000066;
     padding: 0;
     box-sizing: border-box;
     color: #fff;
@@ -830,18 +827,12 @@ h1 {
 }
 
 .testimonila-para {
-    font: 35px/1.6 var(--zf-primary-semibold);
+    font: 22px/1.6 var(--zf-primary-semibold);
     letter-spacing: -0.55px
 }
 
-@media screen and (min-width:1000px) {
-    .testimonila-para {
-        font: 20px/1.6 var(--zf-primary-semibold);
-        letter-spacing: -0.55px
-    }
-}
 .cstmr-detail {
-    font: 30px/38px var(--zf-primary-bold);
+    font: 16px/38px var(--zf-primary-bold);
     display: inline-block;
     padding-right: 35px;
     position: relative;
@@ -925,14 +916,19 @@ h1 {
 }
 
 .btm-con {
-    padding: 210px 30px 150px;
+    border-radius: 40px;
+    background-color: #562200;
+    padding: 80px 70px 80px;
+    box-sizing: border-box;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 80%;
     text-align: center;
-    background: #fff
 }
 
 .btm-promo-hdr {
     font: 48px/1.4 var(--zf-primary-bold);
-    color: #010101;
+    color: #ffffff;
     margin: 0 auto;
     max-width: 900px
 }
@@ -940,12 +936,13 @@ h1 {
 .btm-promo-benifits {
     padding: 10px 0 40px;
     font: 22px/1.4 var(--zf-primary-regular);
-    letter-spacing: -0.55px
+    letter-spacing: -0.55px;
+    color: #fff;
 }
 
 .pricing-nav-btn {
     border: 1px solid #0056e1;
-    color: #0056e1;
+    color: #ffffff;
     margin-left: 15px;
     padding: 12px 22px;
     font: 15px/1.2 var(--zf-primary-semibold)
@@ -1034,13 +1031,13 @@ h1 {
 }
 
 .signup-box #countryCodeDiv, .signup-box #countryconfirmCodeDiv {
-    background: #0050c6;
+    background: #7cc0c300;
     top: 2px;
-    border-right: 2px solid #1f6bdc;
+    border-right: 2px solid #5a5acb;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
-    color: #fff;
-    left: 2px
+    color: #ffffff;
+    left: 2px;
 }
 
 .signup-box #countryCodeDiv:before, .signup-box #countryconfirmCodeDiv:before {
@@ -1080,7 +1077,7 @@ h1 {
 }
 
 .sldr-arrow.arrow-active span:before {
-    border-color: #0067ff
+    border-color: #6666CB
 }
 
 .sldr-arrow.left-arrow span {
@@ -1088,7 +1085,7 @@ h1 {
 }
 
 .sldr-arrow.arrow-active span {
-    background: #0067ff
+    background: #6666CB
 }
 
 .nucleus_link.learnmore .lnr-arow {
@@ -1104,7 +1101,7 @@ h1 {
 
 .nucleus_link {
     border-radius: 50%;
-    border: 1px solid #0067ff;
+    border: 1px solid #6666CB;
     width: 20px;
     height: 20px;
     display: inline-block;
@@ -1142,31 +1139,9 @@ h1 {
 }
 
 .testimonial_slider_footer p, .testimonial_slider_footer li {
-    font: 25px/1.8 var(--zf-primary-regular);
+    font: 20px/1.8 var(--zf-primary-regular);
     padding-bottom: 15px
 }
-
-@media screen and (min-width:1000px) {
-    .testimonial_slider_footer p, .testimonial_slider_footer li {
-        font: 15px/1.8 var(--zf-primary-regular);
-        padding-bottom: 15px
-    }
-
-    .crmbadge-txt, .i18n-en .crmbadge-txt {
-        font: 24px / 1 var(--zf-primary-regular) !important;
-        color: #000;
-        background: #dfdfdf;
-        border-radius: 20px;
-        padding: 7px 12px 6px;
-        margin-bottom: 10px;
-        display: inline-block;
-        letter-spacing: 0;
-    }
-
-    .testimonial_slider_footer ul h2, .testimonial_slider_footer ul h3, .testimonial_slider_footer h2, .testimonial_slider_footer h3 {
-        font: 18px / 1.5 var(--zf-primary-bold);
-    }
-    }
 
 .testimonial_slider_footer ul li {
     position: relative;
@@ -1214,7 +1189,7 @@ h1 {
 }
 
 .testimonial_slider_footer a {
-    color: #0067ff
+    color: #6666CB
 }
 
 .sg-cover {
@@ -1399,7 +1374,7 @@ h1 {
 
 .banner-strip .learnmore, .zwf_scs_txt .learnmore {
     padding: 0 5px;
-    color: #0067ff;
+    color: #6666CB;
     box-sizing: border-box
 }
 
@@ -1693,7 +1668,9 @@ h1 {
 }
 
 .step-lft .inner-hdr, .whychose-sec .inner-hdr {
-    padding: 0
+    padding: 0;
+    padding-bottom: 25px;
+    text-align: center;
 }
 
 div#zpromotion_nl, div#zpromotion_fr {
@@ -2042,7 +2019,7 @@ div#zpromotion_nl .zpremoclose, div#zpromotion_fr .zpremoclose {
     }
 
     .prdcty-wrkflw {
-        width: 95%;
+        width: 60%;
         top: 0
     }
 
@@ -2050,14 +2027,18 @@ div#zpromotion_nl .zpremoclose, div#zpromotion_fr .zpremoclose {
         bottom: -45px
     }
 
-
+    .testimonila-para {
+        font-size: 18px;
+        letter-spacing: -0.45px;
+        padding: 0 !important
+    }
 
     .cstmr-detail {
         padding-right: 25px
     }
 
     .cstmr-detail span {
-        font-size: 35px
+        font-size: 15px
     }
 
     .testimonial-logo {
@@ -2101,16 +2082,6 @@ div#zpromotion_nl .zpremoclose, div#zpromotion_fr .zpremoclose {
 @media only screen and (max-width:1024px) {
     .i18n-en-in .btm-promo-hdr, .i18n-en-au .btm-promo-hdr, .i18n-en .btm-promo-hdr {
         max-width: 540px
-    }
-
-    .list-item {
-        width: 50%;
-        padding-left: 95px;
-        box-sizing: border-box;
-        margin-bottom: 25px;
-        font: 25px / 1.4 var(--zf-primary-regular);
-        position: relative;
-        letter-spacing: -0.16px;
     }
 
     .zwf_success_alert .zwf_scs_txt {
@@ -2192,8 +2163,8 @@ div#zpromotion_nl .zpremoclose, div#zpromotion_fr .zpremoclose {
     }
 
     .slick-dots .slick-active {
-        background: #0067ff !important;
-        border: 1px solid #0067ff !important;
+        background: #6666CB !important;
+        border: 1px solid #6666CB !important;
         width: 22px !important;
         height: 14px
     }
@@ -3167,6 +3138,11 @@ div#zpromotion_nl .zpremoclose, div#zpromotion_fr .zpremoclose {
 @media only screen and (max-width:767px) {
     .body-umain.i18n-zh-hant .zcrmhm-bansec {
         padding: 125px 20px 380px
+    }
+
+    .testimonial_slider_footer p, .testimonial_slider_footer li {
+        font: 28px/1.8 var(--zf-primary-regular) !important;
+        padding-bottom: 15px
     }
 }
 

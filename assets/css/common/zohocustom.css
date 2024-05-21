@@ -2741,6 +2741,9 @@ a.cookieManage {
     display: block !important
 }
 
+.banner-signup input::placeholder {
+    color: rgb(255, 255, 255); /* Change placeholder text color to black */
+}
 .signup-box input[type='email'], .signup-box input[type='number'], .signup-box input[type='password'], .signup-box input[type='search'], .signup-box input[type='tel'], .signup-box input[type='text'], .signup-box input[type='url'], .signup-box textarea, .signup-box .za-country-container .globalcountrycode-signup, .signup-box .za-state-container .za-globalstate-signup, .za-select-container select#customselect {
     color: #000;
     padding: 14px 12px;
@@ -2970,7 +2973,7 @@ select::-ms-expand {
     font-size: 15px;
     height: 50px;
     padding: 0 60px;
-    background: #f0483e;
+    background: #191961;
     text-align: center;
     text-transform: uppercase;
     border: 0;
@@ -4526,7 +4529,7 @@ body.vimactive {
     }
 
     p {
-        font-size: 15px;
+        font-size: 25px !important;
         line-height: 1.8
     }
 
@@ -5268,7 +5271,7 @@ body.vimactive {
     }
 
     .zw-only-copyright {
-        padding: 20px 0 70px
+        padding: 20px 0 70px;
     }
 
     .zmobile-menu-new ul.dropdown-menu {
